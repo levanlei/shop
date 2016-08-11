@@ -1,0 +1,355 @@
+<extend name="Common/common"/>
+<block name="css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/add_shop.css"/>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+    <style>
+        .row div{
+            padding: 0;
+        }
+    </style>
+</block>
+<block name="title">后台管理-商品管理</block>
+<block name="title_name">商品管理</block>
+<block name="function_name">编辑商品</block>
+<block name="main">
+    <form class="shop_info">
+
+        <div style="padding: 0 50px;width: 80%">
+            <div class="controls">
+                <input type="text" class="floatLabel" name="shop_name" value="{$shop_info.shop_name}" style="padding: 15px">
+                <label style="color: #9B060F;font-size: 12px">1、商品名称</label>
+            </div>
+
+
+            <!---->
+            <div class="controls">
+                <div>
+                    <input type="text" class="floatLabel" style="width: 0;height: 0;border: none">
+                    <label style="color: #9B060F">4、填写库存以及图片</label>
+
+                </div>
+            </div>
+            <div class="input_shop_some">
+
+                <button type="button" class="btn btn-info" onclick="$('.checked_tools').addClass('animated fadeInRight').fadeIn(300);
+              setTimeout(function(){
+                 $('.checked_tools').attr('class','checked_tools');
+           }, 1000);
+           ">打开多选操作列表</button>
+                <div style="clear: both"></div>
+                <div class="row">
+                    <div class="col-md-1">
+                        <h4>多选</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>商品属性</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <h4>库存</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <h4>价格</h4>
+
+                    </div>
+                    <div class="col-md-6">
+                        <h4>图片</h4>
+                    </div>
+                </div>
+
+
+                <foreach name="b" item="v">
+                    <div class="row shop_type_info" style="padding:15px 0;border-bottom: 1px dashed #ddd">
+                        <div class="col-md-1 checkbox_info">
+                            <input type="checkbox" name="shop_some" value="">
+                        </div>
+                        <div class="col-md-3 name_info">
+                            <php>
+                                $b_id = [];
+                            </php>
+                            <foreach name="v" item="vv">
+                                <php>
+                                    $a = explode("-",$vv);
+                                    array_push($b_id,$a[1]);
+                                </php>
+                                <span data-id="{$a[1]}"> {$a[0]} </span>
+                            </foreach>
+                            <php>
+                                $b_end_id = implode(",",$b_id);
+                                $k = M();
+                                $type_info = $k->query("select * from lee_shops_type where shop_type = '$b_end_id'");
+                                foreach($type_info as $k=>$v){
+                                $type_info_end = $v;
+                                }
+                            </php>
+                        </div>
+                        <div class="col-md-1 kc_info">
+                            <input type="text" style="width: 50px" value="{$type_info_end.shop_kc}">
+                        </div>
+                        <div class="col-md-2 price_info">
+                            <input type="text" style="width: 100px" value="{$type_info_end.price}">
+                        </div>
+                        <div class="col-md-5 pic_info">
+                            <img src="{$type_info_end.img1}"  style="width: 50px" alt="">
+                            <img src="{$type_info_end.img2}" style="width: 50px" alt="">
+                            <img src="{$type_info_end.img3}"  style="width: 50px" alt="">
+                        </div>
+                        <input type="hidden" class="type_id" value="{$type_info_end.id}">
+                    </div>
+
+                </foreach>
+
+                <div class="checked_tools">
+                    <button type="button" class="btn btn-danger" onclick="$('.checked_tools').addClass('animated fadeOutRight').fadeOut(300);
+                        setTimeout(function(){
+                            $('.checked_tools').attr('class','checked_tools');
+                        }, 1000);
+               " style="width: 100%;border-radius: 0;margin-bottom: 5px;">退出操作</button>
+                    <p class="bg-warning" style="padding: 15px">你可以，在这里批量处理库存，图片，通过输入关键字，快速选中您需要处理的商品</p>
+                    <button type="button" class="btn btn-danger CheckedRev" style="margin-bottom: 15px">全部选择</button>
+                    <div>
+                        <div class="form-group todo-entry">
+                            <input type="text" placeholder="请输入关键字" class="form-control search_key" style="width: 100%">
+                        </div>
+                        <button class="btn btn-primary pull-right search_ok" type="button">查找
+                        </button>
+                    </div>
+                    <div style="padding-top: 15px">
+                        <div style="clear: both"></div>
+                        <h4 style="color: #fff">设置库存</h4>
+                        <div>
+                            <div class="form-group todo-entry">
+                                <input type="text" placeholder="请输入库存" class="form-control" data-name="shop_batch_kc" style="width: 100%">
+                            </div>
+                            <button class="btn btn-primary pull-right batch_ok" type="button">确认</button>
+                        </div>
+
+                        <div style="clear: both"></div>
+                        <h4 style="color: #fff">设置价格</h4>
+                        <div>
+                            <div class="form-group todo-entry">
+                                <input type="text" placeholder="请输入价格" class="form-control" data-name="shop_batch_price" style="width: 100%">
+                            </div>
+                            <button class="btn btn-primary pull-right batch_ok" type="button">确认</button>
+                        </div>
+
+                        <div style="clear: both"></div>
+                        <h4 style="color: #fff">上传图片</h4>
+
+                        <div class="img_div">
+                            <div style="padding: 5px 0">
+                                <input type="text" id="thumb1" class="span5" name="thumb" style="width: 50%">
+                                <input type="button"  value="上 传" data-id="1"  class="btn btn-success upload_pic" />
+                                <img src="" id="img_show1" width="50px" height="50px" />
+                                <button class="btn btn-danger pull-right del_this_pic" type="button">-</button>
+                            </div>
+
+
+
+                        </div>
+                        <button class="btn btn-primary pull-right pic_add_div" type="button">+</button>
+                        <button type="button" class="btn btn-danger upload_pic_ok">确认图片上传</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--//填写商品info-->
+            <div class="controls">
+                <input type="text" class="floatLabel" style="width: 0;height: 0;border: none">
+                <label style="color: #9B060F">4、商品详情</label>
+                <script id="editor" type="text/plain" style="width:100%;height:500px;">{$shop_info.shop_info}</script>
+            </div>
+            <button type="button" class="btn btn-success btn-lg btn-block add_ok" style="width: 100%;border-radius: 0;margin-top: 15px">提交</button>
+        </div>
+        </div>
+        <input type="hidden" name="shops_id" class="shops_id" value="{$_GET['id']}">
+    </form>
+
+</block>
+<block name="js">
+    <script src="__PUBLIC__/ckfinder/ckfinder.js"></script>
+    <script type="text/javascript">
+        //初始化 图片上传 工具
+        function BrowseServer(thumb, img_show) {
+            var finder = new CKFinder();
+
+            //当选中图片时执行的函数
+            finder.selectActionFunction = function(fileUrl){
+                $("#"+thumb).val(fileUrl);
+                $("#"+img_show).attr("src",""+fileUrl+"");
+            };
+
+            finder.popup();//调用窗口
+        }
+    </script>
+    <script>
+        $(function () {
+            function floatLabel(inputType) {
+                $(inputType).each(function () {
+                    var $this = $(this);
+                    if ($this.val() != null) {
+                        $this.next().addClass("active");
+                    }
+                    $this.focus(function () {
+                        $this.next().addClass('active');
+                    });
+                    $this.blur(function () {
+                        if ($this.val() === '' || $this.val() === 'blank') {
+                            $this.next().removeClass();
+                        }
+                    });
+                });
+            }
+            floatLabel('.floatLabel');
+
+            var ue = UE.getEditor('editor');
+
+
+            $(document).on("click",".search_ok",function () {
+                var sta = 0;
+                $("input[name='shop_some']").prop("checked",false);
+                var key = $.trim($(".search_key").val());
+                $(".name_info span").each(function(){
+                    var name = $.trim($(this).text());
+                    var _this = $(this);
+                    if(name == key){
+                        sta = 1;
+                        _this.parent().siblings(".checkbox_info").children("input").prop("checked",true);
+                    }
+                });
+                if(sta == 1){
+                    toast_success("选中成功");
+                }else{
+                    toast_error("选中失败，请保证输入了关键字并且与表中的相同");
+                }
+            });
+
+            $(document).on("click",".CheckedRev",function () {
+                var text = $(this).text();
+                if(text == "全部选择"){
+                    $(this).text("取消全选");
+                    $('[name=shop_some]:checkbox').prop('checked', true);
+                }else{
+                    $(this).text("全部选择");
+                    $('[name=shop_some]:checkbox').prop('checked', false);
+                }
+            });
+
+            $(document).on("click",".batch_ok",function () {
+                var batch_v = $(this).siblings().children().val();
+                var batch_lx = $(this).siblings().children().attr("data-name");
+                if(batch_lx == "shop_batch_kc"){
+                    $("input[name='shop_some']:checked").parent().siblings(".kc_info").children("input").val(batch_v);
+                }else{
+                    $("input[name='shop_some']:checked").parent().siblings(".price_info").children("input").val(batch_v);
+                }
+            });
+
+            var num = 2;
+            $(document).on("click",".pic_add_div",function () {
+                if(num > 3){
+                    toast_warring("最多添加三张图片");
+                    return;
+                }
+                var html = '<div style="padding: 5px 0;display: none">'+
+                        '<input type="text" id="thumb'+num+'" class="span5" name="thumb" style="width: 50%">'+
+                        '<input type="button"  value="上 传" data-id="'+num+'" class="btn btn-success upload_pic" />'+
+                        '<img src="" id="img_show'+num+'" width="50px" height="50px" />'+
+                        '<button class="btn btn-danger pull-right del_this_pic" type="button">-</button>'+
+                        '</div>';
+                num ++ ;
+                $(html).appendTo(".img_div").fadeIn(300);
+
+            });
+
+            $(document).on("click",".upload_pic",function () {
+                var num = $(this).attr("data-id");
+                BrowseServer('thumb'+num+'','img_show'+num+'');
+            });
+
+            $(document).on("click",".del_this_pic",function () {
+                $(this).parent().remove();
+                num--;
+            });
+
+            $(document).on("click",".upload_pic_ok",function () {
+                $("input[name='shop_some']:checked").parent().siblings(".pic_info").children().remove();
+                $(".img_div div .span5").each(function(){
+                    var pic_img = $(this).val();
+                    var html = '<img src="'+pic_img+'" style="width: 50px;height: 50px;">';
+                    $("input[name='shop_some']:checked").parent().siblings(".pic_info").append(html);
+                });
+            });
+
+            //提交
+            var info_array = [];
+            var info_num = 0;
+            $(".add_ok").click(function () {
+                $.ajax({
+                    url:"{:U('Admin/shop/edit_shop_info')}",
+                    dataType:"json",
+                    async:true,
+                    data:$(".shop_info").serialize(),
+                    type: "post",
+                    beforeSend:function () {
+
+                    },
+                    success:function (data) {
+                        if(data){
+                            $(".input_shop_some .shop_type_info").each(function(){
+                                info_num ++ ;
+                                $(this).children(".name_info").children("span").each(function () {
+                                    var id = $(this).attr("data-id");
+                                    info_array.push(info_num+'-属性'+'-'+id);
+                                });
+                                $(this).children(".kc_info").children("input").each(function () {
+                                    var kc = $(this).val();
+                                    info_array.push(info_num+'-库存'+'-'+kc);
+                                });
+                                $(this).children(".price_info").children("input").each(function () {
+                                    var price = $(this).val();
+                                    info_array.push(info_num+'-价格'+'-'+price);
+                                });
+                                $(this).children(".pic_info").children("img").each(function () {
+                                    var pic = $(this).attr("src");
+                                    info_array.push(info_num+'-图片'+'-'+pic);
+                                });
+                                $(this).children(".type_id").each(function () {
+                                    var type_id = $(this).val();
+                                    info_array.push(info_num+'-ID'+'-'+type_id);
+                                });
+                                return;
+                            });
+
+                            var pid = $(".shops_id").val();
+                            console.log(pid);
+
+                            $.ajax({
+                                url:"{:U('Admin/shop/edit_shop_all_type')}",
+                                dataType:"json",
+                                async:true,
+                                data:{info_array:info_array,pid:pid},
+                                type: "post",
+                                beforeSend:function () {
+
+                                },
+                                success:function (data) {
+                                    if(data == 1){
+                                        toast_success("修改成功");
+                                    }
+                                }
+                            });
+                        }
+                    }
+                });
+
+
+
+            });
+
+
+
+        })
+    </script>
+</block>

@@ -1,0 +1,1969 @@
+[ 2016-07-31T12:13:54+08:00 ] 127.0.0.1 /Home/Index/verify_c.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:verify_c
+
+[ 2016-07-31T12:17:30+08:00 ] 127.0.0.1 /Home/Index/verify.html&random=0.27366704999306735
+ERR: ÈùûÊ≥ïÊìç‰Ωú:verify.html&random=0.27366704999306735
+
+[ 2016-07-31T12:17:58+08:00 ] 127.0.0.1 /Home/Index/verify.html&random=0.9149178101412487
+ERR: ÈùûÊ≥ïÊìç‰Ωú:verify.html&random=0.9149178101412487
+
+[ 2016-07-31T12:18:52+08:00 ] 127.0.0.1 /Home/Index/verify.html&random=0.9149178101412487&random=0.7434130015795046
+ERR: ÈùûÊ≥ïÊìç‰Ωú:verify.html&random=0.9149178101412487&random=0.7434130015795046
+
+[ 2016-07-31T13:33:27+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-07-31T13:36:45+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0009s ]
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = $name ) LIMIT 1  
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = $name ) LIMIT 1  
+
+[ 2016-07-31T13:37:03+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 2323 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-07-31T13:37:21+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 2323 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-07-31T13:43:33+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 23 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-07-31T13:43:46+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 23 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-07-31T13:44:12+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 23 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-07-31T13:45:18+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 32323 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-07-31T13:46:06+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 232323 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-07-31T13:51:39+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 2323 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-07-31T13:51:46+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 2323 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-07-31T14:01:34+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 212 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-07-31T14:06:13+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 232 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-07-31T14:06:16+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Undefined index:  E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 19 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-07-31T14:06:48+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 232 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-07-31T14:06:50+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-07-31T14:08:00+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-07-31T14:08:02+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-07-31T14:08:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-07-31T14:08:07+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-07-31T14:08:09+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-07-31T14:08:11+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-07-31T14:10:53+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 23 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-07-31T14:10:59+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 20 Ë°å.
+
+[ 2016-07-31T14:11:00+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 20 Ë°å.
+
+[ 2016-07-31T14:11:00+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 20 Ë°å.
+
+[ 2016-07-31T14:11:22+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 22 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-07-31T14:11:45+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 2323 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-07-31T14:11:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 20 Ë°å.
+
+[ 2016-07-31T14:14:21+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 232 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-07-31T14:14:23+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 21 Ë°å.
+
+[ 2016-07-31T14:14:24+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [2] rand() expects parameter 1 to be long, string given E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 21 Ë°å.
+
+[ 2016-07-31T14:14:29+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-07-31T14:14:29+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-07-31T14:14:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-07-31T14:14:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-07-31T14:14:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-07-31T14:14:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-07-31T14:14:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-07-31T14:14:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-07-31T14:14:31+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-07-31T14:14:32+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-07-31T14:14:38+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-07-31T14:14:38+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-07-31T14:17:32+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-07-31T14:17:34+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-07-31T14:17:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-07-31T14:17:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-07-31T14:17:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-07-31T14:17:36+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-07-31T14:17:36+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-07-31T14:17:37+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-07-31T14:20:08+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-07-31T14:20:08+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-07-31T14:20:08+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-07-31T14:20:09+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-07-31T14:20:09+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-07-31T14:20:11+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 121 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-07-31T14:20:13+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-07-31T14:20:14+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-07-31T14:28:41+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0008s ]
+ERR: 1054:Unknown column 'levan' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = levan ) LIMIT 1  
+ERR: 1054:Unknown column 'levan' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = levan ) LIMIT 1  
+
+[ 2016-07-31T14:29:04+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'levan' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = levan ) LIMIT 1  
+ERR: 1054:Unknown column 'levan' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = levan ) LIMIT 1  
+
+[ 2016-07-31T14:29:19+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+ERR: 1054:Unknown column 'levan' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = levan ) LIMIT 1  
+ERR: 1054:Unknown column 'levan' in 'where clause'
+ [ SQLËØ≠Âè• ] : SELECT * FROM `lee_user` WHERE ( username = levan ) LIMIT 1  
+
+[ 2016-07-31T14:30:08+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+
+[ 2016-07-31T14:30:21+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 2323232 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-07-31T14:30:31+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 232323 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-07-31T14:31:06+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-07-31T14:31:12+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('6NrVmt','levan','·
+‹9I∫Y´æV‡WÚà>','1469946672','1469946672','__PUBLIC__/Home/images/user_avatar/10.jpg')
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('6NrVmt','levan','·
+‹9I∫Y´æV‡WÚà>','1469946672','1469946672','__PUBLIC__/Home/images/user_avatar/10.jpg')
+
+[ 2016-07-31T14:31:33+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-07-31T14:31:39+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:31:47+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0010s ]
+
+[ 2016-07-31T14:31:52+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '1212' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-07-31T14:31:55+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-07-31T14:31:59+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:33:08+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '232323232' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-07-31T14:33:09+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:33:13+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:33:19+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:33:43+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '2323' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-07-31T14:33:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:33:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-07-31T14:33:55+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-07-31T14:33:58+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-07-31T14:34:01+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:34:11+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-07-31T14:34:17+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-07-31T14:34:22+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-07-31T14:34:25+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-07-31T14:34:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+ERR: 1366:Incorrect string value: '\x91 \x161g\xC0...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('p0dWEF','2323','ë 1g¿ZÌÖÛ¯ÑïΩâ','1469946875','1469946875','__PUBLIC__/Home/images/user_avatar/7.jpg')
+ERR: 1366:Incorrect string value: '\x91 \x161g\xC0...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('p0dWEF','2323','ë 1g¿ZÌÖÛ¯ÑïΩâ','1469946875','1469946875','__PUBLIC__/Home/images/user_avatar/7.jpg')
+
+[ 2016-07-31T14:34:48+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:35:37+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-07-31T14:35:43+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\x91 \x161g\xC0...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('dgvrek','2323','ë 1g¿ZÌÖÛ¯ÑïΩâ','1469946943','1469946943','__PUBLIC__/Home/images/user_avatar/4.jpg')
+ERR: 1366:Incorrect string value: '\x91 \x161g\xC0...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('dgvrek','2323','ë 1g¿ZÌÖÛ¯ÑïΩâ','1469946943','1469946943','__PUBLIC__/Home/images/user_avatar/4.jpg')
+
+[ 2016-07-31T14:36:07+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-07-31T14:36:11+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\x91 \x161g\xC0...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('EAgpn4','2323','ë 1g¿ZÌÖÛ¯ÑïΩâ','1469946971','1469946971','__PUBLIC__/Home/images/user_avatar/10.jpg')
+ERR: 1366:Incorrect string value: '\x91 \x161g\xC0...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('EAgpn4','2323','ë 1g¿ZÌÖÛ¯ÑïΩâ','1469946971','1469946971','__PUBLIC__/Home/images/user_avatar/10.jpg')
+
+[ 2016-07-31T14:36:23+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-07-31T14:36:45+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-07-31T14:36:50+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('MdGXeW','levan','·
+‹9I∫Y´æV‡WÚà>','1469947010','1469947010','__PUBLIC__/Home/images/user_avatar/4.jpg')
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('MdGXeW','levan','·
+‹9I∫Y´æV‡WÚà>','1469947010','1469947010','__PUBLIC__/Home/images/user_avatar/4.jpg')
+
+[ 2016-07-31T14:40:09+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`) VALUES ('eu7qNO','levan','·
+‹9I∫Y´æV‡WÚà>','1469947209','1469947209')
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`) VALUES ('eu7qNO','levan','·
+‹9I∫Y´æV‡WÚà>','1469947209','1469947209')
+
+[ 2016-07-31T14:41:44+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-07-31T14:41:50+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0010s ]
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('mRPrle','levan','·
+‹9I∫Y´æV‡WÚà>','1469947310','1469947310','__PUBLIC__/Home/images/user_avatar/6.jpg')
+ERR: 1366:Incorrect string value: '\xE1\x0A\xDC9I\xBA...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('mRPrle','levan','·
+‹9I∫Y´æV‡WÚà>','1469947310','1469947310','__PUBLIC__/Home/images/user_avatar/6.jpg')
+
+[ 2016-07-31T14:42:03+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: user_avatar E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 33 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-07-31T14:42:21+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '121' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-07-31T14:42:24+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\x869\x1D\xBE9g...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('wV3yFX','121','Ü9æ9gJz.-zuD◊Uf','1469947344','1469947344','__PUBLIC__/Home/images/user_avatar/10.jpg')
+ERR: 1366:Incorrect string value: '\x869\x1D\xBE9g...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('wV3yFX','121','Ü9æ9gJz.-zuD◊Uf','1469947344','1469947344','__PUBLIC__/Home/images/user_avatar/10.jpg')
+
+[ 2016-07-31T14:43:00+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '121212' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-07-31T14:43:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+
+[ 2016-07-31T14:43:06+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-07-31T14:43:11+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:43:12+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-07-31T14:43:13+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-07-31T14:43:13+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-07-31T14:43:13+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-07-31T14:43:13+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-07-31T14:43:13+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-07-31T14:43:26+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:43:41+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-07-31T14:43:42+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-07-31T14:43:42+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-07-31T14:43:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-07-31T14:43:50+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:43:51+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-07-31T14:44:14+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '232' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-07-31T14:44:17+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:18+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:44:18+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:18+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:44:18+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:18+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:18+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:18+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:19+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:19+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:23+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:44:24+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:44:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:44:37+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:45:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:45:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:05+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:05+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:05+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:05+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:05+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:45:15+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\xC1]%.\x81\xAB...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('OQwpGf','232','TGj¡]%.Å´ò¬©Îj','1469947515','1469947515','__PUBLIC__/Home/images/user_avatar/6.jpg')
+ERR: 1366:Incorrect string value: '\xC1]%.\x81\xAB...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('OQwpGf','232','TGj¡]%.Å´ò¬©Îj','1469947515','1469947515','__PUBLIC__/Home/images/user_avatar/6.jpg')
+
+[ 2016-07-31T14:45:54+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+ERR: 1366:Incorrect string value: '\xC1]%.\x81\xAB...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('Eo2vjb','232','TGj¡]%.Å´ò¬©Îj','1469947554','1469947554','__PUBLIC__/Home/images/user_avatar/7.jpg')
+ERR: 1366:Incorrect string value: '\xC1]%.\x81\xAB...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('Eo2vjb','232','TGj¡]%.Å´ò¬©Îj','1469947554','1469947554','__PUBLIC__/Home/images/user_avatar/7.jpg')
+
+[ 2016-07-31T14:46:16+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1366:Incorrect string value: '\xC1]%.\x81\xAB...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('CkhBvv','232','TGj¡]%.Å´ò¬©Îj','1469947576','1469947576','__PUBLIC__/Home/images/user_avatar/8.jpg')
+ERR: 1366:Incorrect string value: '\xC1]%.\x81\xAB...' for column 'password' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('CkhBvv','232','TGj¡]%.Å´ò¬©Îj','1469947576','1469947576','__PUBLIC__/Home/images/user_avatar/8.jpg')
+
+[ 2016-07-31T14:46:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-07-31T14:46:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-07-31T14:46:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-07-31T14:46:35+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-07-31T14:46:36+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-07-31T14:46:49+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '2' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-07-31T14:46:52+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:52+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:46:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:46:54+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:54+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:54+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:46:54+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:22+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:22+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:22+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+
+[ 2016-07-31T14:47:23+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:23+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:47:23+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:23+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:26+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '21' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-07-31T14:47:27+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:27+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:27+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:47:27+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:47:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+
+[ 2016-07-31T14:47:28+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:48:47+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:47+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:48+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:48+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:48+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:50+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '232' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-07-31T14:48:52+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:52+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:52+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:52+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:48:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1185 Ë°å.
+NOTIC: [8] Undefined index: auto E:\wamp64\www\llx\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1128 Ë°å.
+
+[ 2016-07-31T14:50:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:50:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:50:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:50:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:50:46+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:51:01+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:01+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:02+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:51:02+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:51:02+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:51:12+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:30+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:31+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+
+[ 2016-07-31T14:51:31+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:51:36+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:51:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:51:54+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:52:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:52:45+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:52:46+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:52:46+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:52:46+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:52:46+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:53:35+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '23' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-07-31T14:53:36+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+
+[ 2016-07-31T14:53:41+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:53:42+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:54:07+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:54:08+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:54:08+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:55:10+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-07-31T14:55:15+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('uVt1cu','levan','892f6200912bc293fc5e6bf0cb57b4e6','1469948115','1469948115','__PUBLIC__/Home/images/user_avatar/8.jpg')
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('uVt1cu','levan','892f6200912bc293fc5e6bf0cb57b4e6','1469948115','1469948115','__PUBLIC__/Home/images/user_avatar/8.jpg')
+
+[ 2016-07-31T14:55:50+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '2323' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2016-07-31T14:55:53+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+
+[ 2016-07-31T14:56:20+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-07-31T14:56:24+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('qrsaxU','levan','c31a69002d8cc1b52932833bf0d4a910','1469948184','1469948184','__PUBLIC__/Home/images/user_avatar/3.jpg')
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('qrsaxU','levan','c31a69002d8cc1b52932833bf0d4a910','1469948184','1469948184','__PUBLIC__/Home/images/user_avatar/3.jpg')
+
+[ 2016-07-31T14:57:04+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '2323' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-07-31T14:57:05+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('tN9spe','2323','7b9eb46a5d0cd852969fb33f2ae64ac8','1469948225','1469948225','__PUBLIC__/Home/images/user_avatar/7.jpg')
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('tN9spe','2323','7b9eb46a5d0cd852969fb33f2ae64ac8','1469948225','1469948225','__PUBLIC__/Home/images/user_avatar/7.jpg')
+
+[ 2016-07-31T14:57:20+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '23' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-07-31T14:57:22+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0005s ]
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('5nGFd1','23','ca49b7cc5314856631b5f590ffb15c38','1469948242','1469948242','__PUBLIC__/Home/images/user_avatar/7.jpg')
+ERR: 1406:Data too long for column 'reg_time' at row 1
+ [ SQLËØ≠Âè• ] : INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('5nGFd1','23','ca49b7cc5314856631b5f590ffb15c38','1469948242','1469948242','__PUBLIC__/Home/images/user_avatar/7.jpg')
+
+[ 2016-07-31T14:57:26+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+
+[ 2016-07-31T14:58:30+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-07-31T14:58:33+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('Tl4kEu','levan','36a06c5b81025eda666b764697187ecc','1469948313','1469948313','__PUBLIC__/Home/images/user_avatar/7.jpg') [ RunTime:0.0003s ]
+
+[ 2016-07-31T14:58:37+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('gyEJ6s','levan','ff6e32bba3d4b03f17d6444d268d5bba','1469948317','1469948317','__PUBLIC__/Home/images/user_avatar/3.jpg') [ RunTime:0.0002s ]
+
+[ 2016-07-31T14:58:50+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-07-31T14:59:00+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-07-31T14:59:04+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('m2VnNi','levan','aee204de60ba7c6e4f84cac79b942d37','1469948344','1469948344','__PUBLIC__/Home/images/user_avatar/1.jpg') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: user_avatar E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 35 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-07-31T14:59:33+08:00 ] 127.0.0.1 /Home/Index/yz_username.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = '1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-07-31T14:59:37+08:00 ] 127.0.0.1 /Home/index/reg.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: INSERT INTO `lee_user` (`key`,`username`,`password`,`reg_time`,`last_time`,`user_avatar`) VALUES ('HXqMSe','1','2c179221a0eb90cd472a90505c37e071','1469948377','1469948377','__PUBLIC__/Home/images/user_avatar/10.jpg') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: user_avatar E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 35 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-07-31T15:17:00+08:00 ] 127.0.0.1 /Home/Index/Home/Index
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Home
+
+[ 2016-07-31T15:17:07+08:00 ] 127.0.0.1 /Home/Index/Home/Index
+ERR: ÈùûÊ≥ïÊìç‰Ωú:Home
+
+[ 2016-07-31T15:21:21+08:00 ] 127.0.0.1 /Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-07-31T15:21:25+08:00 ] 127.0.0.1 /Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-07-31T15:21:28+08:00 ] 127.0.0.1 /Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-07-31T15:21:32+08:00 ] 127.0.0.1 /Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-07-31T15:21:38+08:00 ] 127.0.0.1 /Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: user_avatar E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 54 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-07-31T15:21:49+08:00 ] 127.0.0.1 /Home/index/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `lee_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_user` WHERE ( username = 'levan' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: user_avatar E:\wamp64\www\llx\Application\Home\Controller\IndexController.class.php Á¨¨ 54 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+

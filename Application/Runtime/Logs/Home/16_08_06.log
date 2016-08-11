@@ -1,0 +1,96 @@
+[ 2016-08-06T17:27:30+08:00 ] 127.0.0.1 /home//Index/add_shop?id=2-3-2
+ERR: 非法操作:add_shop
+
+[ 2016-08-06T19:40:58+08:00 ] 127.0.0.1 /Home/Shop/list/id/%24v.id.html
+ERR: 无法加载控制器:Shop
+
+[ 2016-08-06T19:41:32+08:00 ] 127.0.0.1 /Home/Shop/list/id/%24v.id.html
+ERR: 无法加载控制器:Shop
+
+[ 2016-08-06T19:42:25+08:00 ] 127.0.0.1 /Home/Shop/list/id/%24v.id.html
+ERR: 无法加载控制器:Shop
+
+[ 2016-08-06T19:42:33+08:00 ] 127.0.0.1 /Home/Shop/list/id/%24vvv.id.html
+ERR: 无法加载控制器:Shop
+
+[ 2016-08-06T19:42:44+08:00 ] 127.0.0.1 /Home/Shop/list/id/vvv.id.html
+ERR: 无法加载控制器:Shop
+
+[ 2016-08-06T19:43:44+08:00 ] 127.0.0.1 /Home/Shop/list/id/2.html
+ERR: 无法加载控制器:Shop
+
+[ 2016-08-06T19:45:23+08:00 ] 127.0.0.1 /Home/Shop/list/id/2.html
+ERR: 非法操作:list
+
+[ 2016-08-06T19:51:01+08:00 ] 127.0.0.1 /Home/Shop/encrypt
+ERR: 参数错误或者未定义:data
+
+[ 2016-08-06T20:05:59+08:00 ] 127.0.0.1 /Home/Shop/encrypt
+ERR: 非法操作:encrypt
+
+[ 2016-08-06T20:14:46+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/98266dd7c2878c4ff24901cc1866ef3c.html
+ERR: Think\Controller:decryption方法不存在！
+
+[ 2016-08-06T20:23:05+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/8601c6924ecdccf829f31cd76f642887.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sta = 1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_brand` WHERE ( pid =  and sta = 1 ) 
+
+[ 2016-08-06T20:23:15+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/8601c6924ecdccf829f31cd76f642887.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sta = 1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_brand` WHERE ( pid =  and sta = 1 ) 
+
+[ 2016-08-06T20:23:15+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/8601c6924ecdccf829f31cd76f642887.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sta = 1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_brand` WHERE ( pid =  and sta = 1 ) 
+
+[ 2016-08-06T20:29:57+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/16cf788de0664234f8cc29716fc8c92d.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sta = 1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_brand` WHERE ( pid =  and sta = 1 ) 
+
+[ 2016-08-06T20:30:42+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/16cf788de0664234f8cc29716fc8c92d.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and sta = 1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_brand` WHERE ( pid =  and sta = 1 ) 
+
+[ 2016-08-06T20:49:38+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/d2e2c128816fc4836fdc84f979c0667c.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-06T20:49:47+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/d2e2c128816fc4836fdc84f979c0667c.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-08-06T21:04:40+08:00 ] 127.0.0.1 /Home/Shop/info/0/id.html
+ERR: 非法操作:info
+
+[ 2016-08-06T21:05:03+08:00 ] 127.0.0.1 /Home/Shop/info.html
+ERR: 非法操作:info
+
+[ 2016-08-06T21:05:12+08:00 ] 127.0.0.1 /Home/Shop/info/id/81692cd47f6cc3c2e1768604882ff9cd.html
+ERR: 非法操作:info
+
+[ 2016-08-06T21:18:46+08:00 ] 127.0.0.1 /Home/Shop/info/id/ccf1426dd902c92c76c3f868f488e671.html
+ERR: 1146:Table 'shop.lee_shop_type' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lee_shop_type`
+
+[ 2016-08-06T21:19:25+08:00 ] 127.0.0.1 /Home/Shop/info/id/ccf1426dd902c92c76c3f868f488e671.html
+ERR: 1146:Table 'shop.lee_shops_cate_list' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lee_shops_cate_list`
+
+[ 2016-08-06T21:25:11+08:00 ] 127.0.0.1 /Home/Shop/info/id/448fc819c62616d0fc36e872d29fc87c.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_three` WHERE ( id =  ) LIMIT 1  
+
+[ 2016-08-06T22:56:27+08:00 ] 127.0.0.1 /Home/Shop/info/id/f8c38c9d0f142f667416c6d282c8e7c9.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shops` WHERE ( id =  ) LIMIT 1  
+
+[ 2016-08-06T22:56:33+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/1c8e67f82184c287d26d9c49fc6306fc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_three` WHERE ( id =  ) LIMIT 1  
+
+[ 2016-08-06T22:56:34+08:00 ] 127.0.0.1 /Home/Shop/shop_list/id/1c8e67f82184c287d26d9c49fc6306fc.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shop_three` WHERE ( id =  ) LIMIT 1  
+
+[ 2016-08-06T22:56:36+08:00 ] 127.0.0.1 /Home/Shop/info/id/cf021e81374ddff89c96c882466c7c62.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lee_shops` WHERE ( id =  ) LIMIT 1  
+

@@ -1,0 +1,295 @@
+.flicker-example{
+    width: 60%;
+    float: left;
+    height: 450px;
+    position: relative;
+    z-index: 98;
+    margin: 15px 1%;
+}
+.read_quick{
+    width: 21%;
+    padding: 15px 0;
+    float: left;
+}
+.read_quick_div{
+    border: 1px solid #F1F1F1;
+    height: 450px;
+}
+.read_quick_title{
+    height: 150px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #F1F1F1;
+}
+.read_quick_title span{
+    font-size: 16px;
+}
+.read_quick_title ul li a,.read_quick_title ul li a:active{
+    color: #555;
+    font-size: 12px;
+    text-decoration: none;
+}
+.read_quick_title ul li a:hover{
+    color: #9B060F;
+    text-decoration: none;
+}
+.read_quick_title ul li span{
+    font-size: 12px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+.bp_div ul li{
+    width: 25%;
+    text-align: center;
+    padding: 5px 0;
+    float: left;
+}
+.bp_div_no_active{
+    border-top:2px solid transparent;
+    border-bottom: 1px solid #F1F1F1;
+    border-right: 1px solid #F1F1F1;
+}
+.bp_div ul li a{
+    color: #555;
+    text-decoration: none;
+}
+.bp_div_active{
+    border-top:2px solid #9B060F;
+    border-bottom: none;
+}
+.bp_info div{
+    width: 100%;
+    height: 181px;
+    padding: 15px;
+    display: none;
+}
+.bp_info div:first-child {
+    display: block;
+}
+.toady_recommend{
+    width: 1240px;
+    margin: 0 auto;
+    height: 150px;
+}
+.toady_recommend_left{
+    border: 1px solid #F1F1F1;
+    width: 17%;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+.toady_recommend_left_div{
+    width:  257.3px;
+    float: left;
+    border: 1px solid #F1F1F1;
+    height: 150px;
+}
+.toady_recommend_right{
+    width: 83%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.toady_recommend_right_lb{
+    width: 500%;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+}
+.toady_recommend_right a,.toady_recommend_right a:active{
+    color: #fff;
+    text-decoration: none;
+}
+.toady_recommend_right a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.toady_recommend_an_left{
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    z-index: 1;
+    display: block;
+    width: 28px;
+    height: 62px;
+    line-height: 62px;
+    background: gray;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: simsun;
+    opacity: 0.3;
+}
+.toady_recommend_an_right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -31px;
+    z-index: 1;
+    display: block;
+    width: 28px;
+    height: 62px;
+    line-height: 62px;
+    background: gray;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: simsun;
+    opacity: 0.3;
+}
+
+.you_like{
+    width: 1240px;
+    margin: 20px auto;
+}
+.you_like_title{
+    margin-bottom: 5px;
+}
+.you_like_title > h2{
+    font-size: 18px;
+    padding-right: 228px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    margin: 0;
+    float: left;
+    background: url(//misc.360buyimg.com/product/home/1.0.0/css/i/homebg.png) no-repeat 85px -91px;
+}
+.you_like_title div span{
+    font-size: 12px;
+}
+.you_like_shop{
+    border: 1px solid #F1F1F1;
+    padding: 15px 0 0 0;
+}
+.you_like_shop a,.you_like_shop a:active{
+    color: #555;
+    text-decoration: none;
+}
+.you_like_shop_div{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.you_like_shop_div > div{
+    height: 40px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.you_like_shop_div img{
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+.you_like_shop a:hover{
+    color: #9B060F;
+}
+.you_like_shop_div  div{
+    border-right: 1px solid #F1F1F1;
+}
+.you_like_shop_price{
+    padding: 0 15px;
+    text-align: left;
+    font-size: 16px;
+    color: #9B060F;
+}
+.you_like_shop_price i{
+    font-size: 14px;
+}
+.shop_clothes{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.shop_clothes h2 {
+    position: relative;
+    padding-left: 40px;
+    color: #333;
+    float: left;
+    display: inline;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 0;
+}
+.shop_clothes h2:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 31px;
+    height: 25px;
+    background: url(//misc.360buyimg.com/product/home/1.0.0/css/i/product_home_1.0.0.png?__sprite) no-repeat 0 0;
+}
+.shop_clothes i{
+    background: url(//misc.360buyimg.com/product/home/1.0.0/css/i/product_home_1.0.0.png?__sprite) no-repeat 0 0;
+    background-position: 0 0;
+    font-style: normal;
+}
+.shop_clothes h2 i {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    background: url(//misc.360buyimg.com/product/home/1.0.0/css/i/product_home_1.0.0.png?__sprite) no-repeat 0 0;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.shop_clothes_top{
+    border-bottom: 1px solid #9B060F;
+    overflow: visible;
+    position: relative;
+}
+.shop_clothes_title{
+    float: left;
+}
+.shop_clothes_tab{
+    text-align: center;
+    float: right;
+}
+.shop_clothes_tab ul li{
+    float: left;
+}
+
+.shop_clothes_tab ul li:last-child a{
+    border: none;
+}
+.shop_clothes_tab ul li a,.shop_clothes_tab ul li a:active{
+    color: #555;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
+}
+.shop_clothes_tab ul li a:hover{
+    text-decoration: none;
+    color: #9B060F;
+}
+.shop_clothes_tab_active{
+    position: relative;
+    white-space: nowrap;
+    border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top:3px solid  #c81623;
+    padding-top: 1px;
+    top: 1px;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+    line-height: 30px;
+    color: #c81623;
+    text-indent: 1px;
+}
+.shop_clothes_div_left{
+    width: 30%;
+    float: left;
+}
+
+

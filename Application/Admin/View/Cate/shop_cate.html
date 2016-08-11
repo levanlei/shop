@@ -1,0 +1,201 @@
+<extend name="Common/common"/>
+<block name="css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/add_shop.css"/>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+</block>
+<block name="title">后台管理-商品分类</block>
+<block name="title_name">商品分类</block>
+<block name="title_name">商品分类</block>
+<block name="function_name">商品分类列表</block>
+<block name="main">
+    <div class="row">
+        <div class="col-md-1">
+            <span style="font-size: 18px;font-weight: 600;line-height: 41px">商品类型：</span>
+        </div>
+        <div class="col-md-11">
+            <ul class="dowebok">
+            <foreach name="shop_three" item="v">
+                    <li style="margin-right: 5px"><input type="radio" name="shop_type_val" class="shop_type" value="{$v.id}"  data-labelauty="{$v.name}"></li>
+            </foreach>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1">
+            <span style="font-size: 18px;font-weight: 600;line-height: 41px">商品品牌：</span>
+        </div>
+        <div class="col-md-11 ">
+            <ul class="dowebok shop_brand_div">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop_cate_list">
+
+    </div>
+
+</block>
+
+<block name="js">
+    <script>
+        $(function () {
+            $(':input').labelauty();
+
+            $(".shop_type").click(function () {
+                var id = $(this).val();
+                $(".shop_brand_div").children().remove();
+                $.post("{:U('Admin/Cate/get_shop_brand')}",{id:id},function (data) {
+                    if(data != ""){
+                        $.each(data,function (k,v) {
+                            var html = '<li style="margin-right: 5px"><input type="radio" name="shop_brand_val" class="shop_brand" value="'+v.id+'"  data-labelauty="'+v.name+'"></li>'
+                            $(html).appendTo(".shop_brand_div").fadeIn(300);
+                        });
+                        $('.shop_brand_div input').labelauty();
+                    }
+                },"json")
+            });
+            
+            $(document).on("click",".shop_brand",function () {
+                var brand_id = $(this).val();
+                var type_id = $("input[name='shop_type_val']:checked").val();
+                $(".shop_cate_list").children().remove();
+                $.ajax({
+                    url:"{:U('Admin/Cate/get_shop_cate_list')}",
+                    dataType:"",
+                    async:true,
+                    data:{brand_id:brand_id,type_id:type_id},
+                    type: "post",
+                    beforeSend:function () {
+                        var html = my_loading();
+                        $(html).appendTo(".shop_cate_list").fadeIn(300);
+
+                    },
+                    success:function (data) {
+                        $(".loading_div").remove();
+                        $(data).appendTo(".shop_cate_list").fadeIn(300);
+                    }
+                })
+            });
+
+            //属性操作
+            $(document).on("click",".del_att",function () {
+                var r=confirm("是否删除");
+                if (r==true)
+                {
+                    var id = $(this).attr('data-id');
+                    var _this = $(this);
+                    $.post("{:U('Admin/Cate/del_att')}",{id:id},function (data) {
+                        if(data == 1){
+                            _this.parent().fadeOut(300);
+                            toast_success("删除成功");
+                            return;
+                        }
+                    })
+                }
+                else
+                {
+                    return;
+                }
+
+            });
+
+            $(document).on("click",".add_att",function () {
+                var id = $(this).attr('data-id');
+                var name = $.trim($(this).siblings().children().val());
+                if(!name){
+                    toast_warring("内容不能为空");
+                    return;
+                }
+                var _this = $(this);
+                $.post("{:U('Admin/Cate/add_att')}",{id:id,name:name},function (data) {
+                    if(data == 1){
+                        $("input[name='shop_brand_val']:checked").click();
+                    }
+                })
+            });
+
+            $(document).on("blur",".edit_att_name",function () {
+                var id = $(this).attr('data-id');
+                var name = $.trim($(this).text());
+                if(!name){
+                    toast_warring("内容不能为空");
+                    return;
+                }
+                $.post("{:U('Admin/Cate/edit_att_name')}",{id:id,name:name},function (data) {
+                    console.log(data);
+                    if(data == 1){
+                        toast_success("修改成功");
+                        return;
+                    }
+                })
+            });
+
+            $(document).on("click",".del_this_type",function () {
+                var r=confirm("是否删除");
+                if (r==true)
+                {
+                    var _this = $(this);
+                    var id = $(this).attr("data-id");
+                    $.post("{:U('Admin/Cate/del_this_type')}",{id:id},function (data) {
+                        if(data == 1){
+                            _this.parent().parent().fadeOut(300);
+                            toast_success("删除成功");
+                            return;
+                        }
+                    });
+                }
+                else
+                {
+                    return;
+                }
+            });
+
+            $(document).on("click",".add_new_type",function () {
+                var id = $(this).attr("data-id");
+                var name = $.trim($(this).siblings().children().val());
+                if(!name){
+                    toast_warring("内容不能为空");
+                    return;
+                }
+                $.post("{:U('Admin/Cate/add_new_type')}",{id:id,name:name},function (data) {
+                    $("input[name='shop_brand_val']:checked").click();
+                });
+            });
+
+            $(document).on("click",".del_this_all",function () {
+                var r=confirm("是否删除");
+                if (r==true)
+                {
+                    var _this = $(this);
+                    var id = $(this).attr("data-id");
+                    $.post("{:U('Admin/Cate/del_this_all')}",{id:id},function (data) {
+                        if(data == 1){
+                            _this.parent().parent().fadeOut(300);
+                            toast_success("删除成功");
+                            return;
+                        }
+                    });
+                }
+                else
+                {
+                    return;
+                }
+            });
+
+            $(document).on("click",".add_new_shop_type",function () {
+                var v = $.trim($(this).siblings().children().val());
+                var pid_type = $("input[name = 'shop_type_val']:checked").val();
+                var pid = $("input[name = 'shop_brand_val']:checked").val();
+                $.post("{:U('Admin/Cate/add_new_shop_type')}",{v:v,pid_type:pid_type,pid:pid},function (data) {
+                    if(data){
+                        toast_success("新增成功");
+                        $("input[name='shop_brand_val']:checked").click();
+                    }
+                })
+            })
+
+        })
+    </script>
+</block>

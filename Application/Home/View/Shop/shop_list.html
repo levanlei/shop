@@ -1,0 +1,148 @@
+<extend name="Common/header"/>
+<block name="title">商城</block>
+<block name="link_src">
+    <link href="__PUBLIC__/Home/css/fl.css"  type="text/css" rel="stylesheet">
+
+</block>
+<block name="main">
+   <div class="all_fl" style="width: 1240px;margin: 0 auto">
+       <ol class="breadcrumb">
+           <li><a href="{:U('index/index')}">主页</a></li>
+           <li class="active">{$data.shop_this_page.name}</li>
+           <if condition="$data.screen_brand neq ''">
+               <li>
+                   <span style="color: #9B060F">品牌：</span><span style="margin: 0 5px">{$data.screen_brand}</span>
+                   <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'price'=>$_GET['price'],'nc'=>$_GET['nc'],'wl'=>$_GET['wl']))}" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+               </li>
+           </if>
+
+
+           <if condition="$data.screen_price neq ''">
+               <li>
+                   <span style="color: #9B060F">价格：</span><span style="margin: 0 5px">{$data.screen_price}</span>
+                   <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'nc'=>$_GET['nc'],'wl'=>$_GET['wl']))}" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+               </li>
+           </if>
+
+           <if condition="$data.screen_wl neq ''">
+               <li>
+                   <span style="color: #9B060F">网络：</span><span style="margin: 0 5px">{$data.screen_wl}</span>
+                   <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'nc'=>$_GET['nc'],'price'=>$_GET['price']))}" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+               </li>
+           </if>
+
+           <if condition="$data.screen_nc neq ''">
+               <li>
+                   <span style="color: #9B060F">内存：</span><span style="margin: 0 5px">{$data.screen_nc}</span>
+                   <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'wl'=>$_GET['wl'],'price'=>$_GET['price']))}" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+               </li>
+           </if>
+
+
+
+       </ol>
+       <div class="panel-body" style="border: 2px solid #D1CCC7;padding: 0;min-height: 70px;background-color: #F7F5F5;">
+           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
+               品牌
+           </div>
+           <div style="width: 90%;float: left;background-color: #fff">
+               <ul class="pt_css"  style="height: auto;">
+                   <foreach name="data.shop_brand" item="v">
+                       <li>
+                           <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$this->encryption($v['id']),'price'=>$_GET['price'],'nc'=>$_GET['nc'],'wl'=>$_GET['wl']))}"><span>{$v.name}</span></a>
+                       </li>
+                   </foreach>
+               </ul>
+           </div>
+       </div>
+       <div style="clear: both"></div>
+       <div class="panel-body lx_all_cd" style="padding: 0;background-color: #F7F5F5;;border-right:1px solid #F7F5F5;border-bottom: 1px solid #dfdfdf">
+           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
+               价格
+           </div>
+           <div style="width: 90%;float: left;background-color: #fff">
+               <php>$price = array("1000-2000","2000-3000","3000-4000","4000-5000","5000+")</php>
+               <ul class="lx_css lx_cd_old"  style="height: auto;">
+                   <foreach name="price" item="v">
+                       <li>
+                           <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'price'=>$this->encryption($v),'nc'=>$_GET['nc'],'wl'=>$_GET['wl']))}"><span>{$v}</span></a>
+                       </li>
+                   </foreach>
+               </ul>
+
+           </div>
+       </div>
+       <div class="panel-body lx_all_cd" style="padding: 0;background-color: #F7F5F5;;border-right:1px solid #F7F5F5;border-bottom: 1px solid #dfdfdf">
+           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
+               网络
+           </div>
+           <div style="width: 90%;float: left;background-color: #fff">
+               <php>$wl = array("电信","联通","移动","全网通")</php>
+               <ul class="lx_css lx_cd_old"  style="height: auto;">
+                   <foreach name="wl" item="v">
+                       <li>
+                           <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'price'=>$_GET['price'],'nc'=>$_GET['nc'],'wl'=>$this->encryption($v)))}"><span>{$v}</span></a>
+                       </li>
+                   </foreach>
+               </ul>
+           </div>
+       </div>
+       <div class="panel-body lx_all_cd" style="padding: 0;background-color: #F7F5F5;;border-right:1px solid #F7F5F5;border-bottom: 1px solid #dfdfdf">
+           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
+               内存
+           </div>
+           <div style="width: 90%;float: left;background-color: #fff">
+               <php>$nc = array("16G","32G","64G","128G")</php>
+               <ul class="lx_css lx_cd_old"  style="height: auto;">
+                   <foreach name="nc" item="v">
+                       <li>
+                           <a href="{:U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'price'=>$_GET['price'],'wl'=>$_GET['wl'],'nc'=>$this->encryption($v)))}"><span>{$v}</span></a>
+                       </li>
+                   </foreach>
+               </ul>
+           </div>
+       </div>
+
+
+       <div class="panel-body shop_div" style="padding: 15px 0">
+           <foreach name="data.shops" item="v">
+               <php>
+                   $price = [];
+                   foreach($v['shops_type'] as $kk=>$vv){
+                   $price[] = $vv['price'];
+                   $pic = $vv['img1'];
+                   }
+                   $min = min($price);
+                   $max = max($price);
+
+                   $this_id = $this->encryption($v['id']);
+               </php>
+
+               <a href="{:U('Home/Shop/info',array('id' => $this_id))}">
+                   <div class="c_one">
+                       <div class="c_img">
+                           <img  src="{$pic}" style="height: 200px;width: 100%">
+                       </div>
+                       <div style="clear: both"></div>
+                       <div class="c_info" style="padding-left: 5px">
+                           <br>
+
+                           <p style="color: #9B060F;font-size: 16px;font-weight: 600">{$min} - {$max}</p>
+                           <p style="margin-bottom: 0"><strong>{$v.shop_name}</strong></p>
+
+                       </div>
+                   </div>
+               </a>
+           </foreach>
+
+       </div>
+   </div>
+</block>
+
+<block name="js">
+    <script>
+        $(function () {
+
+        })
+    </script>
+</block>

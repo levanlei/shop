@@ -1,0 +1,1057 @@
+[ 2016-08-02T10:57:20+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0273s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-08-02T10:57:21+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-08-02T10:57:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0217s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-08-02T11:53:23+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-08-02T11:53:25+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-02T11:53:26+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-08-02T11:53:27+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-08-02T11:53:37+08:00 ] 127.0.0.1 /Admin/Index/add_cla_ok.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0006s ]
+SQL: INSERT INTO `lee_shop_three` (`pid`,`name`,`sta`) VALUES ('3','手机','1') [ RunTime:0.0157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-02T11:53:38+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-08-02T11:53:39+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-08-02T11:53:40+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:11+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-08-02T11:55:12+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-08-02T11:55:12+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-08-02T11:55:13+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:23+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-08-02T11:55:24+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-08-02T11:55:24+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:50+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:50+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:55:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:21+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-08-02T11:56:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-08-02T11:56:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:23+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:23+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:23+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:23+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:23+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:41+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-08-02T11:56:42+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-08-02T11:56:42+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:54+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-08-02T11:56:55+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-08-02T11:56:55+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:56+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:56:56+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: shop_lv E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 24 行.
+
+[ 2016-08-02T11:58:11+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-08-02T11:58:11+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-08-02T11:58:55+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-08-02T11:58:55+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-08-02T12:00:48+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-02T12:00:49+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-08-02T12:00:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-08-02T12:00:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-08-02T12:02:04+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-08-02T12:02:04+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-08-02T12:02:05+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-08-02T12:02:34+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-08-02T12:02:34+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-08-02T12:02:35+08:00 ] 127.0.0.1 /Admin/Index/add_shop.html2
+ERR: 非法操作:add_shop.html2
+
+[ 2016-08-02T12:03:12+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-08-02T12:03:12+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-08-02T12:08:50+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 6 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-08-02T12:08:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-08-02T12:08:51+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-08-02T12:09:05+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-08-02T12:09:06+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-08-02T12:09:15+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-08-02T12:09:16+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-08-02T12:09:16+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-08-02T12:10:30+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-08-02T12:10:30+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-08-02T12:13:31+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-02T12:13:32+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-08-02T12:15:04+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-08-02T12:15:04+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-08-02T12:15:44+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-08-02T12:15:44+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-08-02T12:15:49+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-08-02T12:15:49+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-08-02T12:15:49+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-08-02T12:17:44+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-08-02T12:17:44+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-08-02T12:17:56+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-08-02T12:17:57+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-08-02T12:18:08+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-08-02T12:18:08+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-08-02T12:19:15+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-08-02T12:19:15+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 4 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-08-02T12:19:16+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-08-02T12:20:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-08-02T12:20:22+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-08-02T12:20:56+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-08-02T12:20:56+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-08-02T12:22:50+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-08-02T12:22:50+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-08-02T12:22:51+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__%20/Index/add_shop?id=2
+ERR: 非法操作:__GROUP__
+
+[ 2016-08-02T12:23:11+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-08-02T12:23:12+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-08-02T12:23:12+08:00 ] 127.0.0.1 /Admin/Index/%7B__GROUP__%7D/Index/add_shop?id=2
+ERR: 非法操作:{__GROUP__}
+
+[ 2016-08-02T12:23:26+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-08-02T12:23:27+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-08-02T12:23:27+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__.html/Index/add_shop?id=2
+ERR: 非法操作:__GROUP__.html
+
+[ 2016-08-02T12:23:46+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-08-02T12:23:47+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-08-02T12:24:26+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-02T12:24:26+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-08-02T12:25:14+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-08-02T12:25:15+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-08-02T12:25:16+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-08-02T12:25:16+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-08-02T12:25:16+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-08-02T12:46:40+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-08-02T12:46:41+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-08-02T12:46:41+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-08-02T13:45:37+08:00 ] 127.0.0.1 /Admin//Index/leftmenu_collapsed_view.html
+ERR: 非法操作:leftmenu_collapsed_view
+
+[ 2016-08-02T13:45:40+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-02T13:45:41+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-08-02T13:45:41+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+

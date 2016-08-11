@@ -1,0 +1,83 @@
+<extend name="Common/common"/>
+<block name="css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/add_shop.css"/>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+</block>
+<block name="title">后台管理-商品品牌</block>
+<block name="title_name">商品品牌</block>
+<block name="title_name">商品品牌</block>
+<block name="function_name">商品品牌列表</block>
+<block name="main">
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>商品类型</th>
+            <th>商品品牌</th>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="shop_brand" item="v" >
+            <tr>
+                <td>{$v.name}</td>
+                <td>
+                    <div class="col-md-9">
+                        <foreach name="v.shop_brand_info" item="vv" key="kk">
+                            <div style="float: left;padding: 10px;border: 1px solid #ddd;margin-right: 5px;position: relative">
+                                <button type="button" class="close del_brand" data-id="{$vv.id}" aria-label="Close" style="position: absolute;right: 2px;top: 2px"><span aria-hidden="true">&times;</span></button>
+                                <div style="padding: 5px" contenteditable="true" class="shop_brand_name" data-id="{$vv.id}">
+                                    {$vv.name}
+                                </div>
+                            </div>
+                        </foreach>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group todo-entry">
+                            <input type="text" placeholder="请输入商品品牌" class="form-control" style="width: 100%">
+                        </div>
+                        <button class="btn btn-primary pull-right add_shop_brand_name_ok" type="button" data-id="{$v.id}">+</button>
+                    </div>
+                </td>
+            </tr>
+        </foreach>
+
+        </tbody>
+    </table>
+</block>
+
+<block name="js">
+    <script>
+        $(function () {
+            $(".shop_brand_name").blur(function () {
+                var name = $.trim($(this).text());
+                var id = $(this).attr("data-id");
+                $.post("{:U('Admin/Cate/change_shop_brand_name')}",{name:name,id:id},function (data) {
+                    if(data == 1){
+                        toast_success("重命名成功");
+                    }
+                },"json");
+            });
+
+            $(".del_brand").click(function () {
+                var id = $(this).attr("data-id");
+                var _this = $(this);
+                $.post("{:U('Admin/Cate/del_shop_brand')}",{id:id},function (data) {
+                    if(data == 1){
+                        _this.parent().fadeOut(300);
+                        toast_success("删除成功");
+                    }
+                },"json");
+            })
+
+            $(".add_shop_brand_name_ok").click(function () {
+                var id = $(this).attr("data-id");
+                var name = $.trim($(this).siblings().children().val());
+                $.post("{:U('Admin/Cate/add_shop_brand')}",{id:id,name:name},function (data) {
+                    if(data == 1){
+                       history.go(0);
+                    }
+                },"json");
+            })
+        })
+    </script>
+</block>

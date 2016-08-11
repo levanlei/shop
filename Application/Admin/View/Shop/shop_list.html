@@ -1,0 +1,94 @@
+<extend name="Common/common"/>
+<block name="css">
+</block>
+<block name="title">后台管理-商品列表</block>
+<block name="title_name">商品列表</block>
+<block name="title_name">商品列表</block>
+<block name="function_name">商品列表</block>
+<block name="main">
+    <div class="row">
+        <div class="col-md-1">
+            <span style="font-size: 18px;font-weight: 600;line-height: 41px">商品类型：</span>
+        </div>
+        <div class="col-md-11">
+            <ul class="dowebok">
+                <foreach name="shop_three" item="v">
+                    <li style="margin-right: 5px"><input type="radio" name="shop_type_val" class="shop_type" value="{$v.id}"  data-labelauty="{$v.name}"></li>
+                </foreach>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1">
+            <span style="font-size: 18px;font-weight: 600;line-height: 41px">商品品牌：</span>
+        </div>
+        <div class="col-md-11 ">
+            <ul class="dowebok shop_brand_div">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop_cate_list">
+
+    </div>
+</block>
+<block name="js">
+    <script>
+        $(function () {
+            $(':input').labelauty();
+
+            $(".shop_type").click(function () {
+                var id = $(this).val();
+                $(".shop_brand_div").children().remove();
+                $.post("{:U('Admin/Cate/get_shop_brand')}",{id:id},function (data) {
+                    if(data != ""){
+                        $.each(data,function (k,v) {
+                            var html = '<li style="margin-right: 5px"><input type="radio" name="shop_brand_val" class="shop_brand" value="'+v.id+'"  data-labelauty="'+v.name+'"></li>'
+                            $(html).appendTo(".shop_brand_div").fadeIn(300);
+                        });
+                        $('.shop_brand_div input').labelauty();
+                    }
+                },"json")
+            });
+
+            $(document).on("click",".shop_brand",function () {
+                var brand_id = $(this).val();
+                var type_id = $("input[name='shop_type_val']:checked").val();
+                $(".shop_cate_list").children().remove();
+                $.ajax({
+                    url:"{:U('Admin/Shop/get_shop_list')}",
+                    dataType:"",
+                    async:true,
+                    data:{brand_id:brand_id,type_id:type_id},
+                    type: "post",
+                    beforeSend:function () {
+                        var html = my_loading();
+                        $(html).appendTo(".shop_cate_list").fadeIn(300);
+
+                    },
+                    success:function (data) {
+                        $(".loading_div").remove();
+                        $(data).appendTo(".shop_cate_list").fadeIn(300);
+
+                    }
+                })
+            });
+
+            $(document).on("click",".del_this_shop",function () {
+                var id = $(this).attr("data-id");
+                var _this = $(this);
+                $.post("{:U('Admin/shop/del_this_shop')}",{id:id},function (data) {
+                    if(data == 1){
+                        toast_success("商品已经添加到回收站");
+                        _this.parent().parent().fadeOut(300);
+                    }
+                })
+
+            });
+
+
+
+        })
+    </script>
+</block>

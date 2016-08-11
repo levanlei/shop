@@ -1,0 +1,124 @@
+<extend name="Common/common"/>
+<block name="css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/add_shop.css"/>
+</block>
+<block name="title">后台管理-商品管理</block>
+<block name="title_name">商品管理</block>
+<block name="title_name">商品管理</block>
+<block name="function_name">添加商品</block>
+<block name="main">
+    <div class="shop_all">
+        <div class="row">
+            <div class="col-md-2 shop_one">
+                    <foreach name="shop_one_info" item="v">
+                        <a data-id="{$v.id}" data-lv="1" href="javascript:void(0);">
+                            <p >{$v.name}</p>
+                        </a>
+            </foreach>
+                    <button type="button" class="btn btn-danger add_cla" data-lv="1" data-id="" style="width: 100%;border-radius: 0">添加栏目一</button>
+            </div>
+            <div class="col-md-2 shop_two"></div>
+            <div class="col-md-2 shop_thr"></div>
+        </div>
+    </div>
+</block>
+
+
+<block name="js">
+    <script>
+        $(function () {
+            $(document).on("click",".shop_all a",function () {
+                var id = $(this).attr("data-id");
+                var lv = $(this).attr("data-lv");
+                $(this).children().addClass('shop_active').parent().siblings().children().removeClass('shop_active');
+                if(lv == 3){
+                    thr_id = id;
+                    window.location.href="http://127.0.0.1/Admin//Index/add_shop?id="+one_id+"-"+two_id+"-"+thr_id+"";
+                    return;
+                }
+                $.ajax({
+                    url:"{:U('Admin/Index/get_shop_lx')}",
+                    dataType:"json",
+                    async:true,
+                    data:{id:id,lv:lv},
+                    type: "post",
+                    beforeSend:function () {
+
+                    },
+                    success:function (data) {
+                        if(lv == 1){
+                            one_id = id;
+                            $(".shop_two").children().remove();
+                            $.each(data,function (k,v) {
+                               var html1 = ' <a data-id="'+v.id+'" data-lv="2" href="javascript:void(0);"><p >'+v.name+'</p> </a>';
+                                $(html1).appendTo(".shop_two").show(500);
+                            });
+                            var html2 = '<button type="button" class="btn btn-danger add_cla" data-lv="2" data-id="" style="width: 100%;border-radius: 0">添加栏目二</button>';
+                            $(html2).appendTo(".shop_two").show(500);
+
+                        } else if(lv == 2){
+                            two_id = id;
+                            $(".shop_thr").children().remove();
+                            $.each(data,function (k,v) {
+                                var html1 = ' <a data-id="'+v.id+'" data-lv="3" href="javascript:void(0);"><p >'+v.name+'</p> </a>';
+                                $(html1).appendTo(".shop_thr").show(500);
+                            });
+                            var html2 = '<button type="button" class="btn btn-danger add_cla" data-lv="3" data-id="" style="width: 100%;border-radius: 0">添加栏目三</button>';
+                            $(html2).appendTo(".shop_thr").show(500);
+                        }
+                    }
+                })
+            });
+
+            $(document).on("click",".add_cla",(function () {
+                $(this).attr("disabled",true);
+                var lv = $(this).attr("data-lv");
+                var html = '<div><input type="text" name="shop_cla" style="width: 100%;margin-top: 10px;border: 1px solid #ddd;padding: 5px" pattern="输入商品名称">'+
+                        '<button class="btn btn-primary pull-left close_add_cla" type="button"   style="margin-top: 5px">取消</button>'+
+                        '<button class="btn btn-primary pull-right add_cla_ok" type="button" data-lv="'+lv+'" style="margin-top: 5px">+</button></div>';
+                if(lv == 1){
+                    $(html).appendTo(".shop_one").show(500);
+                }else if(lv == 2){
+                    $(html).appendTo(".shop_two").show(500);
+                }else if(lv == 3){
+                    $(html).appendTo(".shop_thr").show(500);
+                }
+            }));
+
+            $(document).on("click",".close_add_cla",(function () {
+                $(this).parent().siblings("button").attr("disabled",false);
+                $(this).parent().fadeOut(300);
+            }));
+
+            $(document).on("click",".add_cla_ok",(function () {
+                var lv = $(this).attr("data-lv");
+                var name = $(this).siblings("input").val();
+                if(lv == 1){
+                    var id = "";
+                }else if(lv == 2){
+                    var id = one_id;
+                }else if(lv == 3){
+                    var id = two_id;
+                }
+                $.ajax({
+                    url:"{:U('Admin/Index/add_cla_ok')}",
+                    dataType:"json",
+                    async:true,
+                    data:{name:name,lv:lv,id:id},
+                    type: "post",
+                    beforeSend:function () {
+
+                    },
+                    success:function (data) {
+//                        console.log(data);
+                        if(data == 1){
+                          history.go(0);
+                        }
+                    }
+                })
+            }))
+
+        })
+    </script>
+</block>
+

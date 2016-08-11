@@ -1,0 +1,315 @@
+<extend name="Common/common"/>
+<block name="css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/add_shop.css"/>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"> </script>
+    <style>
+        .row div{
+            padding: 0;
+        }
+    </style>
+</block>
+<block name="title">后台管理-商品管理</block>
+<block name="title_name">商品管理</block>
+<block name="title_name">商品管理</block>
+<block name="function_name">添加商品</block>
+<block name="main">
+    <form class="shop_info">
+
+   <div style="padding: 0 50px;width: 80%">
+       <div class="controls">
+           <input type="text" class="floatLabel" name="shop_name">
+           <label style="color: #9B060F">1、商品名称</label>
+       </div>
+       <!---->
+       <div class="controls">
+           <input type="text" class="floatLabel" style="width: 0;height: 0;border: none">
+           <label style="color: #9B060F">2、选择品牌</label>
+       </div>
+       <div class="controls">
+           <div  style="width: 60%;float: left">
+               <input type="hidden" name="thr_id" class="thr_id" value="{$data.type_id}">
+               <select name="shop_brand">
+                   <option value="">请选择商品品牌</option>
+                   <foreach name="data.brand" item="v">
+                       <option value="{$v.id}">{$v.name}</option>
+                   </foreach>
+               </select>
+           </div>
+       </div>
+       <div style="clear: both"></div>
+       <!---->
+       <div class="controls">
+           <input type="text" class="floatLabel" style="width: 0;height: 0;border: none">
+           <label style="color: #9B060F">3、选择产品型号</label>
+           <input type="hidden" class="shop_type_val" value="">
+       </div>
+       <div class="controls shop_all_type">
+
+       </div>
+       <div style="clear: both"></div>
+       <!---->
+       <div class="controls">
+           <div>
+               <input type="text" class="floatLabel" style="width: 0;height: 0;border: none">
+               <label style="color: #9B060F">4、填写库存以及图片</label>
+
+           </div>
+       </div>
+       <div class="input_shop_some">
+
+
+       </div>
+
+       <!--//填写商品info-->
+       <div class="controls">
+           <input type="text" class="floatLabel" style="width: 0;height: 0;border: none">
+           <label style="color: #9B060F">4、商品详情</label>
+           <script id="editor" type="text/plain" style="width:100%;height:500px;"></script>
+       </div>
+    <button type="button" class="btn btn-success btn-lg btn-block add_ok" style="width: 100%;border-radius: 0;margin-top: 15px">提交</button>
+   </div>
+   </div>
+    </form>
+
+</block>
+<block name="js">
+    <script src="__PUBLIC__/ckfinder/ckfinder.js"></script>
+    <script type="text/javascript">
+        //初始化 图片上传 工具
+        function BrowseServer(thumb, img_show) {
+            var finder = new CKFinder();
+
+            //当选中图片时执行的函数
+            finder.selectActionFunction = function(fileUrl){
+                $("#"+thumb).val(fileUrl);
+                $("#"+img_show).attr("src",""+fileUrl+"");
+            };
+
+            finder.popup();//调用窗口
+        }
+
+
+    </script>
+    <script>
+        $(function () {
+            function floatLabel(inputType) {
+                $(inputType).each(function () {
+                    var $this = $(this);
+                    $this.focus(function () {
+                        $this.next().addClass('active');
+                    });
+                    $this.blur(function () {
+                        if ($this.val() === '' || $this.val() === 'blank') {
+                            $this.next().removeClass();
+                        }
+                    });
+                });
+            }
+            floatLabel('.floatLabel');
+
+            var ue = UE.getEditor('editor');
+
+            $("select[name='shop_brand']").change(function () {
+                var id = $("select[name='shop_brand']").val();
+                var type = $(".thr_id").val();
+                $(".shop_all_type").children().remove();
+                if(id){
+                    $.ajax({
+                        url:"{:U('Admin/Index/get_shop_all_type')}",
+                        dataType:"json",
+                        async:true,
+                        data:{id:id,type:type},
+                        type: "post",
+                        beforeSend:function () {
+                            var html = my_loading();
+                            $(html).appendTo(".shop_all_type").fadeIn(300);
+
+                        },
+                        success:function (data) {
+                            $(".loading_div").remove();
+                            var html_1 = '<div  style="width: 60%;float: left;display: none">'+
+                                        '<select name="shop_type" class="shop_type_select">'+
+                                        '<option value="">选择产品型号</option>'+
+                                        '</select>'+
+                                        '</div>';
+                            $(html_1).appendTo(".shop_all_type").fadeIn(300);
+
+                            $.each(data,function (k,v) {
+                                var html_2 = '<option value="'+v.id+'">'+v.name+'</option>';
+                                $(html_2).appendTo(".shop_type_select").fadeIn(300);
+                            })
+
+                        }
+                    })
+                }
+            });
+
+            $(document).on("change","select[name='shop_type']",function () {
+                var id = $("select[name='shop_type']").val();
+                $(".shop_type_val").val(id);
+                $(".input_shop_some").children().remove();
+                if(id){
+                    $.ajax({
+                        url:"{:U('Admin/Index/get_shop_all_to_input')}",
+                        dataType:"",
+                        async:true,
+                        data:{id:id},
+                        type: "post",
+                        beforeSend:function () {
+                            var html = my_loading();
+                            $(html).appendTo(".input_shop_some").fadeIn(300);
+
+                        },
+                        success:function (data) {
+                            $(".loading_div").remove();
+                            $(data).appendTo(".input_shop_some");
+                        }
+                    })
+                }
+            });
+
+            $(document).on("click",".search_ok",function () {
+                var sta = 0;
+                $("input[name='shop_some']").prop("checked",false);
+                var key = $.trim($(".search_key").val());
+                $(".name_info span").each(function(){
+                    var name = $.trim($(this).text());
+                    var _this = $(this);
+                    if(name == key){
+                        sta = 1;
+                        _this.parent().siblings(".checkbox_info").children("input").prop("checked",true);
+                    }
+                });
+                if(sta == 1){
+                    toast_success("选中成功");
+                }else{
+                    toast_error("选中失败，请保证输入了关键字并且与表中的相同");
+                }
+            });
+
+            $(document).on("click",".CheckedRev",function () {
+               var text = $(this).text();
+                if(text == "全部选择"){
+                    $(this).text("取消全选");
+                    $('[name=shop_some]:checkbox').prop('checked', true);
+                }else{
+                    $(this).text("全部选择");
+                    $('[name=shop_some]:checkbox').prop('checked', false);
+                }
+            });
+
+            $(document).on("click",".batch_ok",function () {
+                var batch_v = $(this).siblings().children().val();
+                var batch_lx = $(this).siblings().children().attr("data-name");
+                if(batch_lx == "shop_batch_kc"){
+                    $("input[name='shop_some']:checked").parent().siblings(".kc_info").children("input").val(batch_v);
+                }else{
+                    $("input[name='shop_some']:checked").parent().siblings(".price_info").children("input").val(batch_v);
+                }
+            });
+
+            var num = 2;
+            $(document).on("click",".pic_add_div",function () {
+                if(num > 3){
+                    toast_warring("最多添加三张图片");
+                    return;
+                }
+                var html = '<div style="padding: 5px 0;display: none">'+
+                '<input type="text" id="thumb'+num+'" class="span5" name="thumb" style="width: 50%">'+
+                '<input type="button"  value="上 传" data-id="'+num+'" class="btn btn-success upload_pic" />'+
+                '<img src="" id="img_show'+num+'" width="50px" height="50px" />'+
+                '<button class="btn btn-danger pull-right del_this_pic" type="button">-</button>'+
+                '</div>';
+                num ++ ;
+                $(html).appendTo(".img_div").fadeIn(300);
+
+            });
+
+            $(document).on("click",".upload_pic",function () {
+                var num = $(this).attr("data-id");
+                BrowseServer('thumb'+num+'','img_show'+num+'');
+            });
+
+            $(document).on("click",".del_this_pic",function () {
+                $(this).parent().remove();
+                num--;
+            });
+
+            $(document).on("click",".upload_pic_ok",function () {
+                $("input[name='shop_some']:checked").parent().siblings(".pic_info").children().remove();
+                $(".img_div div .span5").each(function(){
+                    var pic_img = $(this).val();
+                    var html = '<img src="'+pic_img+'" style="width: 50px;height: 50px;">';
+                    $("input[name='shop_some']:checked").parent().siblings(".pic_info").append(html);
+                });
+            });
+            
+            //提交
+            var info_array = [];
+            var info_num = 0;
+            $(".add_ok").click(function () {
+
+                $.ajax({
+                    url:"{:U('Admin/index/add_shop_info')}",
+                    dataType:"json",
+                    async:true,
+                    data:$(".shop_info").serialize(),
+                    type: "post",
+                    beforeSend:function () {
+
+                    },
+                    success:function (data) {
+                        if(data){
+                            $(".input_shop_some .shop_type_info").each(function(){
+                                info_num ++ ;
+                                $(this).children(".name_info").children("span").each(function () {
+                                    var id = $(this).attr("data-id");
+                                    info_array.push(info_num+'-属性'+'-'+id);
+                                });
+                                $(this).children(".kc_info").children("input").each(function () {
+                                    var kc = $(this).val();
+                                    info_array.push(info_num+'-库存'+'-'+kc);
+                                });
+                                $(this).children(".price_info").children("input").each(function () {
+                                    var price = $(this).val();
+                                    info_array.push(info_num+'-价格'+'-'+price);
+                                });
+                                $(this).children(".pic_info").children("img").each(function () {
+                                    var pic = $(this).attr("src");
+                                    info_array.push(info_num+'-图片'+'-'+pic);
+                                });
+                                return;
+                            });
+
+                            var pid = data;
+
+                            $.ajax({
+                                url:"{:U('Admin/index/add_shop_all_type')}",
+                                dataType:"json",
+                                async:true,
+                                data:{info_array:info_array,pid:pid},
+                                type: "post",
+                                beforeSend:function () {
+
+                                },
+                                success:function (data) {
+//                                    console.log(data);
+                                    if(data == 1){
+                                        toast_success("添加成功");
+                                    }
+                                }
+                            });
+                        }
+                    }
+                });
+
+
+
+            });
+
+
+
+        })
+    </script>
+</block>

@@ -1,0 +1,900 @@
+[ 2016-08-08T20:10:29+08:00 ] 127.0.0.1 /Admin/Index/blank_page.html
+ERR: 非法操作:blank_page
+
+[ 2016-08-08T20:10:33+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-08-08T20:10:34+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-08-08T20:10:34+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-08-08T20:10:45+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2016-08-08T20:10:45+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','6')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-08-08T20:10:47+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '18' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-08-08T20:10:47+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','6')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-08-08T20:10:49+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '18' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-08-08T20:10:50+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','6')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-08-08T20:10:52+08:00 ] 127.0.0.1 /Admin/Cate/blank_page.html
+ERR: 非法操作:blank_page
+
+[ 2016-08-08T20:10:56+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2016-08-08T20:10:57+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-08-08T20:10:57+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-08-08T20:11:04+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE ( pid = 2 and pid_type = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-08-08T20:11:06+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_to_input.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 and sta = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 and sta = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 and sta = 1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-08-08T20:11:29+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shops` (`shop_name`,`shop_brand_id`,`shop_type_id`,`shop_info`,`sta`) VALUES ('小米手机','2','4','<p>·1·1</p>','2') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-08-08T20:11:29+08:00 ] 127.0.0.1 /Admin/index/add_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','31,28,33','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','31,28,34','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','31,28,35','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','31,32,33','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','31,32,34','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','31,32,35','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','30,28,33','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','30,28,34','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','30,28,35','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','30,32,33','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','30,32,34','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','30,32,35','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','29,28,33','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','29,28,34','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','29,28,35','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','29,32,33','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','29,32,34','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 1 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 186 行.
+NOTIC: [8] Undefined offset: 2 E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 187 行.
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img3`,`pid`) VALUES ('1212','12','29,32,35','/Upload/images/iphone6s/55f0e80aN532efcae.jpg','/Upload/images/small/small_55f0e80aN532efcae.jpg',NULL,NULL,'4') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-08-08T20:16:10+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_type E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Undefined index: editorValue E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 133 行.
+SQL: INSERT INTO `lee_shops` (`shop_name`,`shop_brand_id`,`shop_type_id`,`shop_info`,`sta`) VALUES ('','0',NULL,NULL,'2') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-08-08T20:16:13+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: shop_type E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Undefined index: editorValue E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 133 行.
+SQL: INSERT INTO `lee_shops` (`shop_name`,`shop_brand_id`,`shop_type_id`,`shop_info`,`sta`) VALUES ('','0',NULL,NULL,'2') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-08-08T20:16:13+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shop_type E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Undefined index: editorValue E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 133 行.
+SQL: INSERT INTO `lee_shops` (`shop_name`,`shop_brand_id`,`shop_type_id`,`shop_info`,`sta`) VALUES ('','0',NULL,NULL,'2') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-08-08T20:16:13+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: shop_type E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 132 行.
+NOTIC: [8] Undefined index: editorValue E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 133 行.
+SQL: INSERT INTO `lee_shops` (`shop_name`,`shop_brand_id`,`shop_type_id`,`shop_info`,`sta`) VALUES ('','0',NULL,NULL,'2') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-08-08T20:16:43+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-08-08T20:17:39+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE ( pid = 2 and pid_type = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-08-08T20:17:42+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_to_input.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-08-08T20:21:42+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE ( pid = 2 and pid_type = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-08-08T20:21:43+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_to_input.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 and sta = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 and sta = 1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-08-08T20:21:45+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-08-08T20:29:02+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-08-08T20:29:02+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','6')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-08-08T20:40:19+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-08-08T20:40:20+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','6')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-08-08T20:40:49+08:00 ] 127.0.0.1 /Admin/Cate/edit_att_name.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lee_shop_att` SET `name`='金' WHERE `id` = 37 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-08-08T20:40:59+08:00 ] 127.0.0.1 /Admin/Cate/edit_att_name.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lee_shop_att` SET `name`='深灰' WHERE `id` = 38 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-08-08T20:41:04+08:00 ] 127.0.0.1 /Admin/Cate/edit_att_name.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lee_shop_att` SET `name`='银白' WHERE `id` = 36 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-08-08T20:41:05+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','6')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-08-08T20:45:20+08:00 ] 127.0.0.1 /Admin/Pic/blank_page.html
+ERR: 非法操作:blank_page
+
+[ 2016-08-08T20:45:28+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-08-08T20:45:29+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-08-08T20:45:53+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE ( pid = 2 and pid_type = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-08-08T20:45:55+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_to_input.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-08-08T20:47:04+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-08-08T20:47:04+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-08-08T20:47:05+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-08-08T20:47:15+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE ( pid = 2 and pid_type = 2 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-08-08T20:47:21+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_to_input.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-08-08T20:48:18+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-08-08T20:48:19+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-08-08T20:48:26+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE ( pid = 2 and pid_type = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-08-08T20:48:28+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_to_input.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-08-08T20:52:08+08:00 ] 127.0.0.1 /Admin/index/add_shop_info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shops` (`shop_name`,`shop_brand_id`,`shop_type_id`,`shop_info`,`pid`,`sta`) VALUES ('小米 红米Note3 深灰色 移动联通电信4G手机 双卡双待','2','6','<p><br/></p><p><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701261805.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701681709.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701119180.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701949367.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701301394.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701432125.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701190372.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660701137727.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660702134345.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660702109688.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660702720179.jpg\"/>&nbsp;<br/><img class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660702428166.jpg\"/>&nbsp;<br/></p><p><br/></p><p><img alt=\"\" class=\"\" src=\"/ueditor/php/upload/image/20160808/1470660702215331.jpg\"/></p><p><br/></p>','2','2') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-08-08T20:52:09+08:00 ] 127.0.0.1 /Admin/index/add_shop_all_type.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\wamp64\www\llx\Application\Admin\Controller\IndexController.class.php 第 145 行.
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','36,39,41','/Upload/images/hm/yb/56a645deNece69e62.jpg','/Upload/images/small/small_56a645deNece69e62.jpg','/Upload/images/hm/yb/56a645e4N354f4f5f.jpg','/Upload/images/small/small_56a645e4N354f4f5f.jpg','/Upload/images/hm/yb/57a03832N559feef9.jpg','/Upload/images/small/small_57a03832N559feef9.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','36,39,42','/Upload/images/hm/yb/56a645deNece69e62.jpg','/Upload/images/small/small_56a645deNece69e62.jpg','/Upload/images/hm/yb/56a645e4N354f4f5f.jpg','/Upload/images/small/small_56a645e4N354f4f5f.jpg','/Upload/images/hm/yb/57a03832N559feef9.jpg','/Upload/images/small/small_57a03832N559feef9.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','36,39,43','/Upload/images/hm/yb/56a645deNece69e62.jpg','/Upload/images/small/small_56a645deNece69e62.jpg','/Upload/images/hm/yb/56a645e4N354f4f5f.jpg','/Upload/images/small/small_56a645e4N354f4f5f.jpg','/Upload/images/hm/yb/57a03832N559feef9.jpg','/Upload/images/small/small_57a03832N559feef9.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','36,40,41','/Upload/images/hm/yb/56a645deNece69e62.jpg','/Upload/images/small/small_56a645deNece69e62.jpg','/Upload/images/hm/yb/56a645e4N354f4f5f.jpg','/Upload/images/small/small_56a645e4N354f4f5f.jpg','/Upload/images/hm/yb/57a03832N559feef9.jpg','/Upload/images/small/small_57a03832N559feef9.jpg','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','36,40,42','/Upload/images/hm/yb/56a645deNece69e62.jpg','/Upload/images/small/small_56a645deNece69e62.jpg','/Upload/images/hm/yb/56a645e4N354f4f5f.jpg','/Upload/images/small/small_56a645e4N354f4f5f.jpg','/Upload/images/hm/yb/57a03832N559feef9.jpg','/Upload/images/small/small_57a03832N559feef9.jpg','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','36,40,43','/Upload/images/hm/yb/56a645deNece69e62.jpg','/Upload/images/small/small_56a645deNece69e62.jpg','/Upload/images/hm/yb/56a645e4N354f4f5f.jpg','/Upload/images/small/small_56a645e4N354f4f5f.jpg','/Upload/images/hm/yb/57a03832N559feef9.jpg','/Upload/images/small/small_57a03832N559feef9.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','37,39,41','/Upload/images/hm/js/56a64ce7N26ea31ff.jpg','/Upload/images/small/small_56a64ce7N26ea31ff.jpg','/Upload/images/hm/js/56a64ceaNf84715ca.jpg','/Upload/images/small/small_56a64ceaNf84715ca.jpg','/Upload/images/hm/js/57a03810N3b312621.jpg','/Upload/images/small/small_57a03810N3b312621.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','37,39,42','/Upload/images/hm/js/56a64ce7N26ea31ff.jpg','/Upload/images/small/small_56a64ce7N26ea31ff.jpg','/Upload/images/hm/js/56a64ceaNf84715ca.jpg','/Upload/images/small/small_56a64ceaNf84715ca.jpg','/Upload/images/hm/js/57a03810N3b312621.jpg','/Upload/images/small/small_57a03810N3b312621.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','37,39,43','/Upload/images/hm/js/56a64ce7N26ea31ff.jpg','/Upload/images/small/small_56a64ce7N26ea31ff.jpg','/Upload/images/hm/js/56a64ceaNf84715ca.jpg','/Upload/images/small/small_56a64ceaNf84715ca.jpg','/Upload/images/hm/js/57a03810N3b312621.jpg','/Upload/images/small/small_57a03810N3b312621.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','37,40,41','/Upload/images/hm/js/56a64ce7N26ea31ff.jpg','/Upload/images/small/small_56a64ce7N26ea31ff.jpg','/Upload/images/hm/js/56a64ceaNf84715ca.jpg','/Upload/images/small/small_56a64ceaNf84715ca.jpg','/Upload/images/hm/js/57a03810N3b312621.jpg','/Upload/images/small/small_57a03810N3b312621.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','37,40,42','/Upload/images/hm/js/56a64ce7N26ea31ff.jpg','/Upload/images/small/small_56a64ce7N26ea31ff.jpg','/Upload/images/hm/js/56a64ceaNf84715ca.jpg','/Upload/images/small/small_56a64ceaNf84715ca.jpg','/Upload/images/hm/js/57a03810N3b312621.jpg','/Upload/images/small/small_57a03810N3b312621.jpg','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','37,40,43','/Upload/images/hm/js/56a64ce7N26ea31ff.jpg','/Upload/images/small/small_56a64ce7N26ea31ff.jpg','/Upload/images/hm/js/56a64ceaNf84715ca.jpg','/Upload/images/small/small_56a64ceaNf84715ca.jpg','/Upload/images/hm/js/57a03810N3b312621.jpg','/Upload/images/small/small_57a03810N3b312621.jpg','9') [ RunTime:0.0002s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','38,39,41','/Upload/images/hm/sh/56a64f54N7f2673cf.jpg','/Upload/images/small/small_56a64f54N7f2673cf.jpg','/Upload/images/hm/sh/56a64f58Nc34eccb8.jpg','/Upload/images/small/small_56a64f58Nc34eccb8.jpg','/Upload/images/hm/sh/57a03858N73427729.jpg','/Upload/images/small/small_57a03858N73427729.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','38,39,42','/Upload/images/hm/sh/56a64f54N7f2673cf.jpg','/Upload/images/small/small_56a64f54N7f2673cf.jpg','/Upload/images/hm/sh/56a64f58Nc34eccb8.jpg','/Upload/images/small/small_56a64f58Nc34eccb8.jpg','/Upload/images/hm/sh/57a03858N73427729.jpg','/Upload/images/small/small_57a03858N73427729.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('1500','500','38,39,43','/Upload/images/hm/sh/56a64f54N7f2673cf.jpg','/Upload/images/small/small_56a64f54N7f2673cf.jpg','/Upload/images/hm/sh/56a64f58Nc34eccb8.jpg','/Upload/images/small/small_56a64f58Nc34eccb8.jpg','/Upload/images/hm/sh/57a03858N73427729.jpg','/Upload/images/small/small_57a03858N73427729.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','38,40,41','/Upload/images/hm/sh/56a64f54N7f2673cf.jpg','/Upload/images/small/small_56a64f54N7f2673cf.jpg','/Upload/images/hm/sh/56a64f58Nc34eccb8.jpg','/Upload/images/small/small_56a64f58Nc34eccb8.jpg','/Upload/images/hm/sh/57a03858N73427729.jpg','/Upload/images/small/small_57a03858N73427729.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','38,40,42','/Upload/images/hm/sh/56a64f54N7f2673cf.jpg','/Upload/images/small/small_56a64f54N7f2673cf.jpg','/Upload/images/hm/sh/56a64f58Nc34eccb8.jpg','/Upload/images/small/small_56a64f58Nc34eccb8.jpg','/Upload/images/hm/sh/57a03858N73427729.jpg','/Upload/images/small/small_57a03858N73427729.jpg','9') [ RunTime:0.0003s ]
+SQL: INSERT INTO `lee_shops_type` (`price`,`shop_kc`,`shop_type`,`img1`,`img1_small`,`img2`,`img2_small`,`img3`,`img3_small`,`pid`) VALUES ('2500','500','38,40,43','/Upload/images/hm/sh/56a64f54N7f2673cf.jpg','/Upload/images/small/small_56a64f54N7f2673cf.jpg','/Upload/images/hm/sh/56a64f58Nc34eccb8.jpg','/Upload/images/small/small_56a64f58Nc34eccb8.jpg','/Upload/images/hm/sh/57a03858N73427729.jpg','/Upload/images/small/small_57a03858N73427729.jpg','9') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+

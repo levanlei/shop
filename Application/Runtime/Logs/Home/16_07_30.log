@@ -1,0 +1,16 @@
+[ 2016-07-30T11:33:50+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1049] Unknown database 'lee_test'
+
+[ 2016-07-30T11:38:13+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'shop.lee_lee_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lee_lee_test`
+
+[ 2016-07-30T11:38:53+08:00 ] 127.0.0.1 /
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2016-07-30T12:48:25+08:00 ] 127.0.0.1 /Home/Index/%7BU(index/reg)%7D
+ERR: 非法操作:{U(index
+
+[ 2016-07-30T12:50:08+08:00 ] 127.0.0.1 /Home/index/reg.html
+ERR: 非法操作:reg
+
