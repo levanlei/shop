@@ -57,7 +57,7 @@
                 <li class="<?php echo ($data["a_index"]); ?>"><a href="index.html"><i class="fa fa-home"></i> <span>主页</span></a></li>
                 <li class="menu-list <?php echo ($data["a_shop"]); ?>"><a href=""><i class="fa fa-laptop"></i> <span>商品管理</span></a>
                     <ul class="sub-menu-list">
-                        <li class="<?php echo ($data["a_list"]); ?>"><a href="blank_page.html">商品列表</a></li>
+                        <li class="<?php echo ($data["a_list"]); ?>"><a href="<?php echo U('Shop/shop_list');?>">商品列表</a></li>
                         <li class="<?php echo ($data["a_add_shop"]); ?>"><a href="<?php echo U('Index/add_shop');?>">添加商品</a></li>
                         <li class="<?php echo ($data["a_shop_sh"]); ?>"><a href="leftmenu_collapsed_view.html">审核商品</a></li>
                         <li class="<?php echo ($data["a_shop_hsz"]); ?>"><a href="horizontal_menu.html">回收站</a></li>

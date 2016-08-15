@@ -1,0 +1,137 @@
+<form class="account_setting_info">
+        <div class="zh_div">
+            <div class="text_left">
+                帐号
+            </div>
+            <div class="input_right">
+                <input  type="text" style="width: 100%;outline:none;" placeholder="{$user_info.username}" disabled maxlength="20">
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div class="zh_div">
+            <div class="text_left">
+                昵称
+            </div>
+            <div class="input_right">
+                <input  type="text" style="width: 100%;outline:none;" name="nick_name" value="{$user_info.username}" maxlength="20">
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div class="zh_div">
+            <div class="text_left">
+                性别
+            </div>
+            <div class="input_right">
+                <ul class="dowebok">
+                    <li style="margin-right: 5px"><input <eq name="user_info.sex" value="1">checked</eq> type="radio" style="opacity: 0" name="sex" class="sex" value="1"  data-labelauty="男"></li>
+                    <li style="margin-right: 5px"><input <eq name="user_info.sex" value="2">checked</eq> type="radio" style="opacity: 0" name="sex" class="sex" value="2"   data-labelauty="女"></li>
+                    <li style="margin-right: 5px"><input <eq name="user_info.sex" value="0">checked</eq> type="radio" style="opacity: 0" name="sex" class="sex" value="0"   data-labelauty="保密"></li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+        <div class="zh_div">
+            <div class="text_left">
+                兴趣爱好
+            </div>
+            <div class="input_right">
+                <ul class="dowebok">
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="0"  data-labelauty="手机/数码"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="1"  data-labelauty="家用电器"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="3"  data-labelauty="电脑/办公"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="4"  data-labelauty="服装内衣"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="5"  data-labelauty="鞋子"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="6"  data-labelauty="玩具"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="7"  data-labelauty="运动健康"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="8"  data-labelauty="珠宝首饰"></li>
+                </ul>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+
+        <div class="zh_div">
+            <div class="text_left">
+                真实姓名
+            </div>
+            <div class="input_right">
+                <input  type="text" style="width: 100%;outline:none;" name="nick_name" value="{$user_info.real_name}" maxlength="20">
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+    <div  class="zh_div">
+        <div class="text_left" style="border: none">
+            修改头像
+        </div>
+        <div class="input_right">
+            <div id="altContent">
+                <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                        codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+                        WIDTH="650" HEIGHT="450" id="myMovieName">
+                    <PARAM NAME=movie VALUE="__PUBLIC__/Home/avatar.swf">
+                    <PARAM NAME=quality VALUE=high>
+                    <PARAM NAME=bgcolor VALUE=#FFFFFF>
+                    <param name="flashvars" value="imgUrl=/{$user_info.user_avatar}&uploadUrl={:U('Home/User/upload_avatar')}&uploadSrc=false" />
+                    <EMBED src="__PUBLIC__/Home/avatar.swf" quality=high bgcolor=#FFFFFF WIDTH="650" HEIGHT="450" wmode="transparent" flashVars="imgUrl=/{$user_info.user_avatar}&uploadUrl={:U('Home/User/upload_avatar')}&uploadSrc=false"
+                           NAME="myMovieName" ALIGN="" TYPE="application/x-shockwave-flash" allowScriptAccess="always"
+                           PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+                    </EMBED>
+                </OBJECT>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+
+    <div  class="zh_div">
+        <div class="text_left" style="border: none">
+
+        </div>
+        <div class="input_right">
+            <button type="button" class="btn btn-primary ok_account_setting_info">提交</button>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+</form>
+<block name="js">
+    <script>
+        $(function () {
+            $(':input').labelauty();
+
+            $(".ok_account_setting_info").click(function () {
+                $.post("{:U('Home/edit_account_info')}",$(".account_setting_info").serialize(),function (data) {
+                    console.log(data);
+                },"json");
+            })
+
+
+            function uploadevent(status, picUrl, callbackdata) {
+                //alert(picUrl); //后端存储图片
+//                alert(callbackdata); //后端返回数据
+                console.log(callbackdata)
+                status += '';
+                switch (status) {
+                    case '1':
+                        var time = new Date().getTime();
+                        var filename162 = picUrl + '_162.jpg';
+                        var filename48 = picUrl + '_48.jpg';
+                        var filename20 = picUrl + "_20.jpg";
+                        window.location.reload();
+                        break;
+                    case '-1':
+                        window.location.reload();
+                        break;
+                    default:
+                        window.location.reload();
+
+                }
+            }
+        })
+    </script>
+</block>

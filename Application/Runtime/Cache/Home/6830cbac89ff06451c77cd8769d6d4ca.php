@@ -15,10 +15,9 @@
         <script type="text/javascript" src="/Public/bootstrap/js/my.js"></script>
         <link rel="stylesheet" href="/Public/my/css/jquery-labelauty.css">
         <script type="text/javascript" src="/Public/bootstrap/js/jquery.toast.min.js"></script>
-        <title>商城</title>
+        <title>个人中心</title>
         
-    <link href="/Public/Home/css/fl.css"  type="text/css" rel="stylesheet">
-
+    <link href="/Public/Home/css/user_index.css"  type="text/css" rel="stylesheet">
 
     </head>
     <body>
@@ -76,110 +75,188 @@
     <!--功能  logo 搜索 购物车 结束-->
 
     
-   <div class="all_fl" style="width: 1240px;margin: 0 auto">
-       <ol class="breadcrumb">
-           <li><a href="<?php echo U('index/index');?>">主页</a></li>
-           <li class="active"><?php echo ($data["shop_this_page"]["name"]); ?></li>
-           <?php if($data["screen_brand"] != ''): ?><li>
-                   <span style="color: #9B060F">品牌：</span><span style="margin: 0 5px"><?php echo ($data["screen_brand"]); ?></span>
-                   <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'price'=>$_GET['price'],'nc'=>$_GET['nc'],'wl'=>$_GET['wl']));?>" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
-               </li><?php endif; ?>
 
 
-           <?php if($data["screen_price"] != ''): ?><li>
-                   <span style="color: #9B060F">价格：</span><span style="margin: 0 5px"><?php echo ($data["screen_price"]); ?></span>
-                   <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'nc'=>$_GET['nc'],'wl'=>$_GET['wl']));?>" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
-               </li><?php endif; ?>
+    <div class="user_header">
+        <div class="user_header_main">
+            <h3>这里是logo</h3>
+            <div class="user_header_two">
+               <span>首页</span>
+                <span>消息</span>
+            </div>
+            <div class="header_two_search">
+                <input type="text" class="index_search">
+                <button type="button" class="ss_btn">搜索</button>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
 
-           <?php if($data["screen_wl"] != ''): ?><li>
-                   <span style="color: #9B060F">网络：</span><span style="margin: 0 5px"><?php echo ($data["screen_wl"]); ?></span>
-                   <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'nc'=>$_GET['nc'],'price'=>$_GET['price']));?>" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
-               </li><?php endif; ?>
-
-           <?php if($data["screen_nc"] != ''): ?><li>
-                   <span style="color: #9B060F">内存：</span><span style="margin: 0 5px"><?php echo ($data["screen_nc"]); ?></span>
-                   <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'wl'=>$_GET['wl'],'price'=>$_GET['price']));?>" type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></a>
-               </li><?php endif; ?>
-
-
-
-       </ol>
-       <div class="panel-body" style="border: 2px solid #D1CCC7;padding: 0;min-height: 70px;background-color: #F7F5F5;">
-           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
-               品牌
-           </div>
-           <div style="width: 90%;float: left;background-color: #fff">
-               <ul class="pt_css"  style="height: auto;">
-                   <?php if(is_array($data["shop_brand"])): foreach($data["shop_brand"] as $key=>$v): ?><li>
-                           <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$this->encryption($v['id']),'price'=>$_GET['price'],'nc'=>$_GET['nc'],'wl'=>$_GET['wl']));?>"><span><?php echo ($v["name"]); ?></span></a>
-                       </li><?php endforeach; endif; ?>
-               </ul>
-           </div>
-       </div>
-       <div style="clear: both"></div>
-       <div class="panel-body lx_all_cd" style="padding: 0;background-color: #F7F5F5;;border-right:1px solid #F7F5F5;border-bottom: 1px solid #dfdfdf">
-           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
-               价格
-           </div>
-           <div style="width: 90%;float: left;background-color: #fff">
-               <?php $price = array("1000-2000","2000-3000","3000-4000","4000-5000","5000+") ?>
-               <ul class="lx_css lx_cd_old"  style="height: auto;">
-                   <?php if(is_array($price)): foreach($price as $key=>$v): ?><li>
-                           <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'price'=>$this->encryption($v),'nc'=>$_GET['nc'],'wl'=>$_GET['wl']));?>"><span><?php echo ($v); ?></span></a>
-                       </li><?php endforeach; endif; ?>
-               </ul>
-
-           </div>
-       </div>
-       <div class="panel-body lx_all_cd" style="padding: 0;background-color: #F7F5F5;;border-right:1px solid #F7F5F5;border-bottom: 1px solid #dfdfdf">
-           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
-               网络
-           </div>
-           <div style="width: 90%;float: left;background-color: #fff">
-               <?php $wl = array("电信","联通","移动","全网通") ?>
-               <ul class="lx_css lx_cd_old"  style="height: auto;">
-                   <?php if(is_array($wl)): foreach($wl as $key=>$v): ?><li>
-                           <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'price'=>$_GET['price'],'nc'=>$_GET['nc'],'wl'=>$this->encryption($v)));?>"><span><?php echo ($v); ?></span></a>
-                       </li><?php endforeach; endif; ?>
-               </ul>
-           </div>
-       </div>
-       <div class="panel-body lx_all_cd" style="padding: 0;background-color: #F7F5F5;;border-right:1px solid #F7F5F5;border-bottom: 1px solid #dfdfdf">
-           <div style="width: 10%;height: auto;float: left;text-indent: 13px;padding: 7px 0 0;color: #B0A59F">
-               内存
-           </div>
-           <div style="width: 90%;float: left;background-color: #fff">
-               <?php $nc = array("16G","32G","64G","128G") ?>
-               <ul class="lx_css lx_cd_old"  style="height: auto;">
-                   <?php if(is_array($nc)): foreach($nc as $key=>$v): ?><li>
-                           <a href="<?php echo U('Shop/shop_list',array('id'=>$_GET['id'],'brand'=>$_GET['brand'],'price'=>$_GET['price'],'wl'=>$_GET['wl'],'nc'=>$this->encryption($v)));?>"><span><?php echo ($v); ?></span></a>
-                       </li><?php endforeach; endif; ?>
-               </ul>
-           </div>
-       </div>
+    <div class="user_info">
+        <div class="user_info_left">
+            <div>
+                <p>个人中心</p>
+                <li><a <?php if(($$res) == ""): ?>class="user_active"<?php endif; ?> href="<?php echo U('Home/User/account_setting');?>">帐号设置</a></li>
+                <li><a href="">帐号安全</a></li>
+                <li><a href="">我的等级</a></li>
+                <li><a href="">收货地址</a></li>
+            </div>
+            <div>
+                <p>订单中心</p>
+                <li><a href="">我的订单</a></li>
+                <li><a href="">购物车</a></li>
+            </div>
+            <div>
+                <p>关注中心</p>
+                <li><a href="">关注的商品</a></li>
+                <li><a href="">关注的店铺</a></li>
+            </div>
+        </div>
+        <div class="user_info_right">
+                <form class="account_setting_info">
+        <div class="zh_div">
+            <div class="text_left">
+                帐号
+            </div>
+            <div class="input_right">
+                <input  type="text" style="width: 100%;outline:none;" placeholder="<?php echo ($user_info["username"]); ?>" disabled maxlength="20">
+            </div>
+            <div style="clear: both"></div>
+        </div>
 
 
-       <div class="panel-body shop_div" style="padding: 15px 0">
-           <?php if(is_array($data["shops"])): foreach($data["shops"] as $key=>$v): $price = []; foreach($v['shops_type'] as $kk=>$vv){ $price[] = $vv['price']; $pic = $vv['img1']; } $min = min($price); $max = max($price); $this_id = $this->encryption($v['id']); ?>
+        <div class="zh_div">
+            <div class="text_left">
+                昵称
+            </div>
+            <div class="input_right">
+                <input  type="text" style="width: 100%;outline:none;" name="nick_name" value="<?php echo ($user_info["username"]); ?>" maxlength="20">
+            </div>
+            <div style="clear: both"></div>
+        </div>
 
-               <a href="<?php echo U('Home/Shop/info',array('id' => $this_id));?>">
-                   <div class="c_one">
-                       <div class="c_img">
-                           <img  src="<?php echo ($pic); ?>" style="height: 200px;width: 100%">
-                       </div>
-                       <div style="clear: both"></div>
-                       <div class="c_info" style="padding-left: 5px">
-                           <br>
 
-                           <p style="color: #9B060F;font-size: 16px;font-weight: 600"><?php echo ($min); ?> - <?php echo ($max); ?></p>
-                           <p style="margin-bottom: 0"><strong><?php echo ($v["shop_name"]); ?></strong></p>
+        <div class="zh_div">
+            <div class="text_left">
+                性别
+            </div>
+            <div class="input_right">
+                <ul class="dowebok">
+                    <li style="margin-right: 5px"><input <?php if(($user_info["sex"]) == "1"): ?>checked<?php endif; ?> type="radio" style="opacity: 0" name="sex" class="sex" value="1"  data-labelauty="男"></li>
+                    <li style="margin-right: 5px"><input <?php if(($user_info["sex"]) == "2"): ?>checked<?php endif; ?> type="radio" style="opacity: 0" name="sex" class="sex" value="2"   data-labelauty="女"></li>
+                    <li style="margin-right: 5px"><input <?php if(($user_info["sex"]) == "0"): ?>checked<?php endif; ?> type="radio" style="opacity: 0" name="sex" class="sex" value="0"   data-labelauty="保密"></li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+        </div>
 
-                       </div>
-                   </div>
-               </a><?php endforeach; endif; ?>
+        <div class="zh_div">
+            <div class="text_left">
+                兴趣爱好
+            </div>
+            <div class="input_right">
+                <ul class="dowebok">
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="0"  data-labelauty="手机/数码"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="1"  data-labelauty="家用电器"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="3"  data-labelauty="电脑/办公"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="4"  data-labelauty="服装内衣"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="5"  data-labelauty="鞋子"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="6"  data-labelauty="玩具"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="7"  data-labelauty="运动健康"></li>
+                    <li style="margin-right: 5px"><input type="checkbox" style="opacity: 0" name="hobbies[]" class="hobbies" value="8"  data-labelauty="珠宝首饰"></li>
+                </ul>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
 
-       </div>
-   </div>
+        <div class="zh_div">
+            <div class="text_left">
+                真实姓名
+            </div>
+            <div class="input_right">
+                <input  type="text" style="width: 100%;outline:none;" name="nick_name" value="<?php echo ($user_info["real_name"]); ?>" maxlength="20">
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+    <div  class="zh_div">
+        <div class="text_left" style="border: none">
+            修改头像
+        </div>
+        <div class="input_right">
+            <div id="altContent">
+                <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                        codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+                        WIDTH="650" HEIGHT="450" id="myMovieName">
+                    <PARAM NAME=movie VALUE="/Public/Home/avatar.swf">
+                    <PARAM NAME=quality VALUE=high>
+                    <PARAM NAME=bgcolor VALUE=#FFFFFF>
+                    <param name="flashvars" value="imgUrl=/<?php echo ($user_info["user_avatar"]); ?>&uploadUrl=<?php echo U('Home/User/upload_avatar');?>&uploadSrc=false" />
+                    <EMBED src="/Public/Home/avatar.swf" quality=high bgcolor=#FFFFFF WIDTH="650" HEIGHT="450" wmode="transparent" flashVars="imgUrl=/<?php echo ($user_info["user_avatar"]); ?>&uploadUrl=<?php echo U('Home/User/upload_avatar');?>&uploadSrc=false"
+                           NAME="myMovieName" ALIGN="" TYPE="application/x-shockwave-flash" allowScriptAccess="always"
+                           PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+                    </EMBED>
+                </OBJECT>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+
+    <div  class="zh_div">
+        <div class="text_left" style="border: none">
+
+        </div>
+        <div class="input_right">
+            <button type="button" class="btn btn-primary ok_account_setting_info">提交</button>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+</form>
+
+    <script>
+        $(function () {
+            $(':input').labelauty();
+
+            $(".ok_account_setting_info").click(function () {
+                $.post("<?php echo U('Home/edit_account_info');?>",$(".account_setting_info").serialize(),function (data) {
+                    console.log(data);
+                },"json");
+            })
+
+
+            function uploadevent(status, picUrl, callbackdata) {
+                //alert(picUrl); //后端存储图片
+//                alert(callbackdata); //后端返回数据
+                console.log(callbackdata)
+                status += '';
+                switch (status) {
+                    case '1':
+                        var time = new Date().getTime();
+                        var filename162 = picUrl + '_162.jpg';
+                        var filename48 = picUrl + '_48.jpg';
+                        var filename20 = picUrl + "_20.jpg";
+                        window.location.reload();
+                        break;
+                    case '-1':
+                        window.location.reload();
+                        break;
+                    default:
+                        window.location.reload();
+
+                }
+            }
+        })
+    </script>
+
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div style="clear: both"></div>
+
+
 
 
 <div class="fz_div">
@@ -243,12 +320,6 @@
 
     <div style="height: 500px"></div>
     
-    <script>
-        $(function () {
-
-        })
-    </script>
-
     <script type="text/javascript" src="/Public/my/js/jquery-labelauty.js"></script>
     <script type="text/javascript" src="/Public/my/js/jquery.nicescroll.js"></script>
 

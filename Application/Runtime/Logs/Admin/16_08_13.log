@@ -1,0 +1,1500 @@
+[ 2016-08-13T09:10:22+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-08-13T09:10:22+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','9','6')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 9 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 21 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 23 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-08-13T09:10:32+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-08-13T09:11:00+08:00 ] 127.0.0.1 /Admin/Cate/add_new_shop_type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: INSERT INTO `lee_shop_cate_list` (`name`,`pid`,`pid_type`,`sta`) VALUES ('iphone6s plus','1','2','1') [ RunTime:0.0148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-08-13T09:11:00+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-08-13T09:11:17+08:00 ] 127.0.0.1 /Admin/Cate/add_new_type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0006s ]
+SQL: INSERT INTO `lee_shop_cate_has` (`name`,`pid`,`sta`) VALUES ('颜色','10','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-08-13T09:11:17+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-08-13T09:11:42+08:00 ] 127.0.0.1 /Admin/Cate/add_new_type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shop_cate_has` (`name`,`pid`,`sta`) VALUES ('版本','10','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-08-13T09:11:42+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-08-13T09:11:53+08:00 ] 127.0.0.1 /Admin/Cate/add_new_type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0006s ]
+SQL: INSERT INTO `lee_shop_cate_has` (`name`,`pid`,`sta`) VALUES ('容量','10','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-08-13T09:11:53+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-08-13T09:12:09+08:00 ] 127.0.0.1 /Admin/Cate/add_new_type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_cate_has` (`name`,`pid`,`sta`) VALUES ('套餐','10','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-08-13T09:12:09+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-08-13T09:12:19+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('金色','24','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-08-13T09:12:19+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-08-13T09:12:25+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('银色','24','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-08-13T09:12:25+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-08-13T09:12:40+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('灰色','24','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-08-13T09:12:40+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-08-13T09:12:47+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0006s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('玫瑰金','24','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-08-13T09:12:47+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-08-13T09:12:57+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('公开版','25','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-08-13T09:12:57+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-08-13T09:13:06+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('移动4G','25','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-08-13T09:13:06+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-08-13T09:13:13+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('16G','26','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-08-13T09:13:13+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-13T09:13:16+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('32G','26','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-08-13T09:13:16+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-08-13T09:13:18+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('68G','26','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-08-13T09:13:18+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-08-13T09:13:20+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('128G','26','1') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-08-13T09:13:20+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-08-13T09:13:33+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0005s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('官方标配','27','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-08-13T09:13:33+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-08-13T09:13:50+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('联通优惠购','27','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-08-13T09:13:50+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-08-13T09:13:59+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('电信优惠购','27','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-08-13T09:13:59+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-08-13T09:14:08+08:00 ] 127.0.0.1 /Admin/Cate/add_att
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: INSERT INTO `lee_shop_att` (`name`,`pid`,`sta`) VALUES ('移动优惠购','27','1') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-08-13T09:14:08+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-08-13T09:15:14+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 1 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-08-13T09:15:15+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `lee_shop_two` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lee_shop_two` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-08-13T09:15:15+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-08-13T09:15:16+08:00 ] 127.0.0.1 /Admin/Index/get_shop_lx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `lee_shop_three` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_three` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-08-13T09:15:36+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE ( pid = 1 and pid_type = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-08-13T09:15:38+08:00 ] 127.0.0.1 /Admin/Index/get_shop_all_to_input
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 and sta = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 and sta = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-08-13T09:21:04+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-08-13T09:21:05+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '2' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('4','9','6')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 4 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 11 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 12 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 9 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 21 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 23 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 6 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 15 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 16 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-08-13T09:21:05+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_cate_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_list` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `lee_shop_cate_list` WHERE ( pid = '1' and pid_type = '2' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `lee_shop_cate_list` WHERE `id` IN ('1','3','10')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 17 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 18 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 19 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_cate_has` WHERE ( pid = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 25 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 26 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE ( pid = 27 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-08-13T09:21:09+08:00 ] 127.0.0.1 /Admin/Cate/del_this_type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `lee_shop_cate_has` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0004s ]
+SQL: DELETE FROM `lee_shop_cate_has` WHERE `id` = 27 [ RunTime:0.0002s ]
+SQL: DELETE FROM `lee_shop_att` WHERE ( pid = '27' ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-08-13T09:21:16+08:00 ] 127.0.0.1 /Admin/Cate/edit_att_name
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `lee_shop_att` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_shop_att` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lee_shop_att` SET `name`='64G' WHERE `id` = 72 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-08-13T09:23:27+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-08-13T09:23:28+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 2 and pid = 2 and sta = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-08-13T09:23:29+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 1 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-08-13T09:23:30+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 18 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-08-13T09:23:30+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 2 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-08-13T09:23:33+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 1 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-08-13T09:23:35+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 2 and pid = 2 and sta = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-13T09:23:35+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 1 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-08-13T09:23:36+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 2 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-08-13T09:23:36+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 1 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-08-13T09:23:37+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 2 and pid = 2 and sta = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-08-13T09:23:38+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 1 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-08-13T09:23:38+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 2 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-08-13T09:23:38+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 1 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-08-13T09:23:39+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 3 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-08-13T09:23:40+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 11 and pid = 3 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-08-13T09:23:41+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-08-13T09:23:42+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-08-13T09:23:43+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 2 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-08-13T09:23:43+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 2 and pid = 2 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-08-13T09:23:43+08:00 ] 127.0.0.1 /Admin/Cate/get_shop_brand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `lee_shop_brand` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shop_brand` WHERE ( pid = 3 )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-08-13T09:23:44+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 10 and pid = 3 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-08-13T09:23:45+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 11 and pid = 3 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-08-13T09:23:46+08:00 ] 127.0.0.1 /Admin/Shop/get_shop_list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `lee_shops` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops` WHERE ( shop_brand_id = 12 and pid = 3 and sta = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-08-13T09:23:47+08:00 ] 127.0.0.1 /Admin/Index/leftmenu_collapsed_view.html
+ERR: 非法操作:leftmenu_collapsed_view
+

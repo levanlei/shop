@@ -53,7 +53,7 @@ class IndexController extends Controller
             $add['password'] = md5($data['pass'].$key);
             $add['reg_time'] = time();
             $add['last_time'] = time();
-            $add['user_avatar'] = "__PUBLIC__/Home/images/user_avatar/".rand(1,10).".jpg";
+            $add['user_avatar'] = "PUBLIC/Home/images/user_avatar/".rand(1,10).".jpg";
             $User = D('user');
             $user_id = $User->add($add);
             session('uid', $user_id);
@@ -113,5 +113,10 @@ class IndexController extends Controller
         }else{
             echo json_encode(2);
         }
+    }
+    function aaa(){
+        $shop = M();
+        $num = $shop->query("select count(shop_brand_id),shop_brand_id from lee_shops GROUP by shop_brand_id");
+        var_dump($num);
     }
 }

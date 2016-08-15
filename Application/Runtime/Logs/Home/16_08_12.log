@@ -1,0 +1,689 @@
+[ 2016-08-12T13:29:18+08:00 ] 127.0.0.1 /home/index/my_dir
+ERR: 参数错误或者未定义:dir
+
+[ 2016-08-12T13:29:38+08:00 ] 127.0.0.1 /home/index/my_dir
+ERR: 非法操作:my_dir
+
+[ 2016-08-12T13:51:41+08:00 ] 127.0.0.1 /home/index/aaa
+ERR: Think\Controller:query方法不存在！
+
+[ 2016-08-12T23:19:25+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,7,10' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-08-12T23:19:26+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,10' and pid = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-08-12T23:19:27+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,10' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-08-12T23:19:28+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,10' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-08-12T23:19:29+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,10' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-08-12T23:19:29+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-08-12T23:19:29+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-08-12T23:19:30+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-08-12T23:19:30+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-08-12T23:19:31+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-08-12T23:19:31+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-08-12T23:19:32+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,6,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-08-12T23:19:32+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,6,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2016-08-12T23:19:32+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-08-12T23:19:33+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-08-12T23:19:33+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-08-12T23:19:33+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-08-12T23:19:34+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-08-12T23:19:34+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-08-12T23:19:35+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-08-12T23:19:35+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-08-12T23:19:35+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-08-12T23:19:36+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-12T23:19:36+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-08-12T23:19:36+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-08-12T23:19:37+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-08-12T23:19:38+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-12T23:19:38+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2016-08-12T23:19:39+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-08-12T23:19:39+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-08-12T23:19:40+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-08-12T23:19:40+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-08-12T23:19:41+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,10' and pid = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-08-12T23:19:41+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-08-12T23:19:42+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-08-12T23:19:42+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-08-12T23:19:42+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-08-12T23:19:42+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,10' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-08-12T23:19:43+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,7,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-12T23:19:43+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,6,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-08-12T23:19:43+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,9' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-08-12T23:19:44+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-08-12T23:19:44+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-08-12T23:19:45+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-08-12T23:19:45+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-08-12T23:19:46+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-08-12T23:19:46+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-08-12T23:19:47+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '3,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-08-12T23:19:47+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '2,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-08-12T23:19:48+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/f614cc2ec602cf26c38d878f9d981746
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '1,5,8' and pid = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-08-12T23:20:45+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '55,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-08-12T23:20:46+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-08-12T23:20:47+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '57,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-08-12T23:20:47+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '55,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-08-12T23:20:48+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-08-12T23:20:50+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '55,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-08-12T23:20:50+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '57,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-08-12T23:20:52+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '55,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002082s ]
+
+[ 2016-08-12T23:20:52+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,58,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-08-12T23:20:53+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,59,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-08-12T23:20:54+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,60,61' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-08-12T23:20:54+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,60,62' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-08-12T23:20:55+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,60,63' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-08-12T23:20:55+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '57,60,63' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-08-12T23:20:56+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '57,59,63' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-08-12T23:20:56+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '55,59,63' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-08-12T23:20:57+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '55,58,63' and pid = 10 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-08-12T23:20:57+08:00 ] 127.0.0.1 /Home/Shop/get_shop_type/id/8687e230454ddd634a45129908e53d62
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `lee_shops_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `lee_shops_type` WHERE ( shop_type = '56,58,63' and pid = 10 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
