@@ -39,7 +39,7 @@
                         <li><a href="javascript:void(0)" onclick="$('.login_tu_div').fadeIn(300);">登录</a></li>
                         <li><a href="javascript:void(0)" onclick="$('.reg_div').fadeIn(300);">注册</a></li><?php endif; ?>
                     <li><a href="">我的订单</a></li>
-                    <li><a href="">个人中心</a></li>
+                    <li><a href="<?php echo U('Home/User/index');?>">个人中心</a></li>
                     <li><a href="">客户服务</a></li>
                     <li><a href="">网站导航</a></li>
                 </ul>
@@ -404,7 +404,6 @@
         </form>
     </div>
 </div>
-
 
 
     <div style="height: 500px"></div>

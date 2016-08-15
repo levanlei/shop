@@ -1,0 +1,57 @@
+<extend name="Common/header"/>
+<block name="title">个人中心</block>
+<block name="link_src">
+    <link href="__PUBLIC__/Home/css/user_index.css"  type="text/css" rel="stylesheet">
+</block>
+<block name="main">
+
+
+    <div class="user_header">
+        <div class="user_header_main">
+            <h3>这里是logo</h3>
+            <div class="user_header_two">
+               <span>首页</span>
+                <span>消息</span>
+            </div>
+            <div class="header_two_search">
+                <input type="text" class="index_search">
+                <button type="button" class="ss_btn">搜索</button>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="user_info">
+        <div class="user_info_left">
+            <div>
+                <p>个人中心</p>
+                <li><a <eq name="$res" vlaue="account_setting">class="user_active"</eq> href="{:U('Home/User/account_setting')}">帐号设置</a></li>
+                <li><a href="">帐号安全</a></li>
+                <li><a href="">我的等级</a></li>
+                <li><a href="">收货地址</a></li>
+            </div>
+            <div>
+                <p>订单中心</p>
+                <li><a href="">我的订单</a></li>
+                <li><a href="">购物车</a></li>
+            </div>
+            <div>
+                <p>关注中心</p>
+                <li><a href="">关注的商品</a></li>
+                <li><a href="">关注的店铺</a></li>
+            </div>
+        </div>
+        <div class="user_info_right">
+                <include file="$res" />
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div style="clear: both"></div>
+
+
+</block>
+
+<block>
+
+</block>
